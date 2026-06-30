@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Heritage Treasures — UNESCO World Heritage Sites Dashboard</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<style>
+  :root{
+    --ink:#1f1b16;
+    --paper:#f6f1e7;
+    --paper-deep:#ece3d2;
+    --gold:#b9852f;
+    --gold-deep:#8a5f1f;
+    --terracotta:#bf5b3f;
+    --moss:#5c7a5a;
+    --slate:#475569;
+    --danger:#bf3b3b;
+    --safe:#5c7a5a;
+    --line:#d9cdb4;
+    --shadow: 0 12px 30px rgba(40,30,15,0.12);
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:
+      radial-gradient(1200px 600px at 10% -10%, #fffaf0 0%, transparent 60%),
+      var(--paper);
+    color:var(--ink);
+    font-family: 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
+  }
+  .display{font-family: 'Trajan Pro', 'Cinzel', Georgia, serif;}
+
+  header.hero{
+    position:relative;
+    padding: 86px 8vw 60px;
+    border-bottom: 1px solid var(--line);
+    overflow:hidden;
+  }
+  header.hero::before{
+    content:"";
+    position:absolute; inset:0;
+    background-image:
+      repeating-linear-gradient(115deg, rgba(185,133,47,0.07) 0px, rgba(185,133,47,0.07) 1px, transparent 1px, transparent 80px);
+    pointer-events:none;
+  }
+  .eyebrow{
+    letter-spacing:0.32em;
+    text-transform:uppercase;
+    font-size:12px;
+    color:var(--gold-deep);
+    font-family: Georgia, serif;
+    margin-bottom:18px;
+    display:flex;
+    align-items:center;
+    gap:14px;
+  }
+  .eyebrow::before{content:"";width:36px;height:1px;background:var(--gold-deep);display:inline-block;}
+  h1.title{
+    font-size: clamp(36px, 5.2vw, 64px);
+    line-height:1.05;
+    margin:0 0 22px;
+    max-width:18ch;
+    font-weight:400;
+    letter-spacing:0.005em;
+  }
+  h1.title em{font-style:italic;color:var(--terracotta);}
+  .lede{
+    max-width:62ch;
+    font-size:18px;
+    line-height:1.65;
+    color:#3a342b;
+  }
+  .hero-stats{
+    display:flex;
+    gap:0;
+    margin-top:48px;
+    flex-wrap:wrap;
+    border-top:1px solid var(--line);
+  }
+  .hstat{
+    padding:22px 36px 0 0;
+    margin-right:36px;
+    border-right:1px solid var(--line);
+    min-width:140px;
+  }
+  .hstat:last-child{border-right:none;}
+  .hstat .num{
+    font-family: Georgia, serif;
+    font-size:34px;
+    color:var(--gold-deep);
+    font-variant-numeric: tabular-nums;
+  }
+  .hstat .lbl{
+    font-size:12px;
+    text-transform:uppercase;
+    letter-spacing:0.12em;
+    color:var(--slate);
+    margin-top:4px;
+  }
+
+  main{padding: 10px 8vw 100px;}
+
+  section.scenario{
+    padding: 70px 0;
+    border-bottom:1px solid var(--line);
+  }
+  section.scenario:last-of-type{border-bottom:none;}
+
+  .scenario-head{
+    display:flex;
+    align-items:baseline;
+    gap:22px;
+    margin-bottom:8px;
+  }
+  .scenario-num{
+    font-family: Georgia, serif;
+    font-style:italic;
+    font-size:15px;
+    color:var(--gold-deep);
+    white-space:nowrap;
+  }
+  h2.scenario-title{
+    font-size: clamp(24px, 3vw, 34px);
+    font-weight:400;
+    margin:0;
+  }
+  .scenario-desc{
+    max-width:72ch;
+    color:#4a4334;
+    line-height:1.65;
+    margin: 14px 0 36px;
+    font-size:15.5px;
+  }
+  .scenario-desc .cols{
+    font-size:13px;
+    color:var(--slate);
+    font-style:italic;
+  }
+
+  .viz-card{
+    background: #fffdf8;
+    border:1px solid var(--line);
+    border-radius: 4px;
+    box-shadow: var(--shadow);
+    padding: 32px 28px;
+  }
+
+  /* Scenario 1: Treemap */
+  #treemap-wrap{width:100%; position:relative;}
+  .tm-node{
+    stroke:#fffdf8;
+    stroke-width:1.5px;
+    cursor:pointer;
+    transition: opacity 0.15s ease;
+  }
+  .tm-node:hover{opacity:0.82;}
+  .tm-label{
+    font-family: Georgia, serif;
+    fill:#fffdf8;
+    pointer-events:none;
+  }
+  .tm-tooltip{
+    position:absolute;
+    background:var(--ink);
+    color:var(--paper);
+    padding:8px 12px;
+    border-radius:3px;
+    font-size:13px;
+    pointer-events:none;
+    opacity:0;
+    transition:opacity 0.1s;
+    z-index:10;
+    box-shadow:0 6px 18px rgba(0,0,0,0.25);
+  }
+  .controls-row{
+    display:flex;
+    gap:10px;
+    margin-bottom:24px;
+    flex-wrap:wrap;
+  }
+  .chip{
+    border:1px solid var(--line);
+    background:transparent;
+    padding:7px 16px;
+    border-radius: 20px;
+    font-family: inherit;
+    font-size:13px;
+    color:var(--slate);
+    cursor:pointer;
+    transition: all 0.15s ease;
+  }
+  .chip.active, .chip:hover{
+    background:var(--gold-deep);
+    border-color:var(--gold-deep);
+    color:#fff;
+  }
+
+  /* Scenario 2: pie/donut */
+  .donut-row{
+    display:grid;
+    grid-template-columns: 1fr 1.3fr;
+    gap:48px;
+    align-items:center;
+  }
+  @media (max-width: 880px){ .donut-row{grid-template-columns:1fr;} }
+  .donut-legend{display:flex; flex-direction:column; gap:18px;}
+  .leg-item{display:flex; align-items:center; gap:14px;}
+  .leg-swatch{width:16px; height:16px; border-radius:3px; flex-shrink:0;}
+  .leg-text .leg-name{font-size:15px; color:var(--ink);}
+  .leg-text .leg-pct{font-family:Georgia,serif; font-size:26px; color:var(--gold-deep);}
+  .danger-list{
+    margin-top:28px;
+    border-top:1px solid var(--line);
+    padding-top:20px;
+    max-height:220px;
+    overflow-y:auto;
+  }
+  .danger-list h4{
+    font-size:12px; text-transform:uppercase; letter-spacing:0.1em; color:var(--slate); margin:0 0 12px;
+  }
+  .danger-row{
+    display:flex; justify-content:space-between; padding:8px 0; border-bottom:1px dashed var(--line);
+    font-size:13.5px;
+  }
+  .danger-row .country{color:var(--slate);}
+
+  /* Scenario 3: line chart */
+  .legend-region{
+    display:flex; gap:18px; flex-wrap:wrap; margin-bottom:22px;
+  }
+  .lr-item{display:flex; align-items:center; gap:8px; font-size:13px; color:var(--slate); cursor:pointer; user-select:none;}
+  .lr-item.muted{opacity:0.3;}
+  .lr-swatch{width:22px; height:3px; border-radius:2px;}
+  .axis path, .axis line{stroke:var(--line);}
+  .axis text{fill:var(--slate); font-family:Georgia,serif; font-size:11px;}
+  .grid line{stroke:var(--line); stroke-opacity:0.5; shape-rendering:crispEdges;}
+  .grid path{display:none;}
+  .line-path{fill:none; stroke-width:2.2px;}
+  .dot{cursor:pointer;}
+  .chart-tooltip{
+    position:absolute; background:var(--ink); color:var(--paper); padding:8px 12px;
+    font-size:12.5px; border-radius:3px; pointer-events:none; opacity:0; z-index:10;
+    box-shadow:0 6px 18px rgba(0,0,0,0.25);
+  }
+
+  footer{
+    padding: 50px 8vw 60px;
+    border-top:1px solid var(--line);
+    color:var(--slate);
+    font-size:13px;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:12px;
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="eyebrow">UNESCO World Heritage · 2019 Edition</div>
+  <h1 class="title display">Heritage <em>Treasures</em></h1>
+  <p class="lede">An in-depth analysis of UNESCO World Heritage Sites — mapping where the world's outstanding cultural and natural landmarks stand, which are most at risk, and how regional conservation efforts have evolved since 1978.</p>
+  <div class="hero-stats" id="hero-stats"></div>
+</header>
+
+<main>
+
+  <section class="scenario" id="scenario-1">
+    <div class="scenario-head">
+      <span class="scenario-num">Scenario One</span>
+      <h2 class="scenario-title">Heritage Sites by Country</h2>
+    </div>
+    <p class="scenario-desc">
+      Each block represents a country, sized in proportion to the number of heritage sites it holds. The view surfaces, at a glance, which nations carry the heaviest concentration of UNESCO-recognized landmarks.
+      <br><span class="cols">Columns used: Country, Name_en</span>
+    </p>
+    <div class="viz-card">
+      <div class="controls-row" id="region-filter"></div>
+      <div id="treemap-wrap"></div>
+    </div>
+  </section>
+
+  <section class="scenario" id="scenario-2">
+    <div class="scenario-head">
+      <span class="scenario-num">Scenario Two</span>
+      <h2 class="scenario-title">Heritage Sites at Risk</h2>
+    </div>
+    <p class="scenario-desc">
+      A breakdown of every site by danger status — distinguishing those formally listed as "In Danger" from the wider list that remains secure, to help focus preservation resources where they matter most.
+      <br><span class="cols">Columns used: Danger, Name_en</span>
+    </p>
+    <div class="viz-card">
+      <div class="donut-row">
+        <div id="donut-wrap"></div>
+        <div>
+          <div class="donut-legend" id="donut-legend"></div>
+          <div class="danger-list">
+            <h4>Sites Currently In Danger</h4>
+            <div id="danger-sites"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="scenario" id="scenario-3">
+    <div class="scenario-head">
+      <span class="scenario-num">Scenario Three</span>
+      <h2 class="scenario-title">Regional Inscription Trends</h2>
+    </div>
+    <p class="scenario-desc">
+      New site inscriptions over time, segmented by region — tracing which parts of the world have accelerated their heritage conservation efforts, and which trends have held steady since the Convention began.
+      <br><span class="cols">Columns used: Date_inscribed, Region</span>
+    </p>
+    <div class="viz-card">
+      <div class="legend-region" id="line-legend"></div>
+      <div id="line-wrap"></div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <span>Heritage Treasures — Data Analytics with Tableau, Group Project</span>
+  <span>Dataset: 755 sites · 99 countries · 5 regions · 1978–2019</span>
+</footer>
+
+<script>
+const palette = {
+  "Europe and North America": "#b9852f",
+  "Asia and the Pacific": "#bf5b3f",
+  "Latin America and the Caribbean": "#5c7a5a",
+  "Africa": "#7a5c8a",
+  "Arab States": "#3f7d9e"
+};
+
+fetch('data.json').then(r => r.json()).then(data => {
+  data.forEach(d => { d.Year = +d.Date_inscribed.slice(0,4); });
+  init(data);
+});
+
+function init(data){
+  renderHeroStats(data);
+  renderTreemap(data);
+  renderDonut(data);
+  renderLineChart(data);
+}
+
+function renderHeroStats(data){
+  const countries = new Set(data.map(d=>d.Country)).size;
+  const inDanger = data.filter(d=>d.Danger === "In Danger").length;
+  const years = d3.extent(data, d=>d.Year);
+  const stats = [
+    {num: data.length.toLocaleString(), lbl: "Total Sites"},
+    {num: countries, lbl: "Countries"},
+    {num: inDanger, lbl: "Sites In Danger"},
+    {num: `${years[0]}–${years[1]}`, lbl: "Inscription Span"}
+  ];
+  const el = d3.select("#hero-stats");
+  stats.forEach(s=>{
+    const div = el.append("div").attr("class","hstat");
+    div.append("div").attr("class","num").text(s.num);
+    div.append("div").attr("class","lbl").text(s.lbl);
+  });
+}
+
+/* ---------------- Scenario 1: Treemap ---------------- */
+let currentRegionFilter = "All";
+
+function renderTreemap(data){
+  const regions = ["All", ...Object.keys(palette)];
+  const filterEl = d3.select("#region-filter");
+  filterEl.selectAll("button").data(regions).enter().append("button")
+    .attr("class", r => "chip" + (r === currentRegionFilter ? " active" : ""))
+    .text(r => r)
+    .on("click", function(event, r){
+      currentRegionFilter = r;
+      d3.selectAll("#region-filter .chip").classed("active", d => d === r);
+      drawTreemap(data);
+    });
+  drawTreemap(data);
+}
+
+function drawTreemap(data){
+  d3.select("#treemap-wrap").selectAll("*").remove();
+  const filtered = currentRegionFilter === "All" ? data : data.filter(d => d.Region === currentRegionFilter);
+
+  const counts = d3.rollups(filtered, v => v.length, d => d.Country)
+    .sort((a,b) => b[1]-a[1])
+    .slice(0, 40);
+
+  const root = d3.hierarchy({children: counts.map(([country, count]) => ({country, count}))})
+    .sum(d => d.count)
+    .sort((a,b) => b.value - a.value);
+
+  const width = document.getElementById('treemap-wrap').clientWidth || 900;
+  const height = 460;
+
+  d3.treemap().size([width, height]).padding(2)(root);
+
+  const svg = d3.select("#treemap-wrap").append("svg")
+    .attr("width", width).attr("height", height)
+    .attr("viewBox", `0 0 ${width} ${height}`);
+
+  const tooltip = d3.select("#treemap-wrap").append("div").attr("class","tm-tooltip");
+
+  const colorScale = d3.scaleOrdinal()
+    .domain(counts.map(d=>d[0]))
+    .range(d3.quantize(t => d3.interpolateRgb("#8a5f1f", "#d9b46a")(t), counts.length));
+
+  const regionColor = country => {
+    const rec = data.find(d => d.Country === country);
+    return rec ? palette[rec.Region] : "#999";
+  };
+
+  const leaves = root.leaves();
+  const node = svg.selectAll("g").data(leaves).enter().append("g")
+    .attr("transform", d => `translate(${d.x0},${d.y0})`);
+
+  node.append("rect")
+    .attr("class","tm-node")
+    .attr("width", d => Math.max(0, d.x1-d.x0))
+    .attr("height", d => Math.max(0, d.y1-d.y0))
+    .attr("fill", d => regionColor(d.data.country))
+    .on("mousemove", function(event, d){
+      const [mx,my] = d3.pointer(event, document.getElementById('treemap-wrap'));
+      tooltip.style("opacity",1)
+        .style("left", (mx+14)+"px").style("top",(my+10)+"px")
+        .html(`<strong>${d.data.country}</strong><br>${d.data.count} heritage site${d.data.count>1?'s':''}`);
+    })
+    .on("mouseleave", () => tooltip.style("opacity",0));
+
+  node.filter(d => (d.x1-d.x0) > 50 && (d.y1-d.y0) > 24).append("text")
+    .attr("class","tm-label")
+    .attr("x", 6).attr("y", 18)
+    .attr("font-size", d => Math.min(14, Math.max(9, (d.x1-d.x0)/9)))
+    .text(d => d.data.country);
+
+  node.filter(d => (d.x1-d.x0) > 50 && (d.y1-d.y0) > 40).append("text")
+    .attr("class","tm-label")
+    .attr("x", 6).attr("y", 36)
+    .attr("font-size", 11)
+    .attr("opacity", 0.85)
+    .text(d => d.data.count + " sites");
+}
+
+/* ---------------- Scenario 2: Donut ---------------- */
+function renderDonut(data){
+  const counts = d3.rollups(data, v=>v.length, d=>d.Danger);
+  const total = data.length;
+  const colors = {"In Danger": "#bf3b3b", "Not in Danger": "#5c7a5a"};
+
+  const width = 320, height = 320, radius = Math.min(width,height)/2;
+  const svg = d3.select("#donut-wrap").append("svg")
+    .attr("width", width).attr("height", height)
+    .append("g").attr("transform", `translate(${width/2},${height/2})`);
+
+  const pie = d3.pie().value(d=>d[1]).sort(null);
+  const arc = d3.arc().innerRadius(radius*0.6).outerRadius(radius*0.95);
+  const arcHover = d3.arc().innerRadius(radius*0.6).outerRadius(radius*1.0);
+
+  const tooltip = d3.select("body").append("div").attr("class","tm-tooltip").style("position","fixed");
+
+  svg.selectAll("path").data(pie(counts)).enter().append("path")
+    .attr("d", arc)
+    .attr("fill", d => colors[d.data[0]])
+    .attr("stroke", "#fffdf8").attr("stroke-width", 2)
+    .style("cursor","pointer")
+    .on("mouseenter", function(event,d){
+      d3.select(this).transition().duration(120).attr("d", arcHover);
+    })
+    .on("mouseleave", function(event,d){
+      d3.select(this).transition().duration(120).attr("d", arc);
+    })
+    .on("mousemove", function(event,d){
+      const pct = ((d.data[1]/total)*100).toFixed(1);
+      tooltip.style("opacity",1)
+        .style("left",(event.clientX+14)+"px").style("top",(event.clientY+10)+"px")
+        .html(`<strong>${d.data[0]}</strong><br>${d.data[1]} sites (${pct}%)`);
+    })
+    .on("mouseout", ()=>tooltip.style("opacity",0));
+
+  svg.append("text").attr("text-anchor","middle").attr("y",-6)
+    .attr("font-family","Georgia,serif").attr("font-size",30).attr("fill","#1f1b16")
+    .text(total);
+  svg.append("text").attr("text-anchor","middle").attr("y",18)
+    .attr("font-family","Georgia,serif").attr("font-size",12).attr("fill","#475569")
+    .text("Total Sites");
+
+  const legend = d3.select("#donut-legend");
+  counts.sort((a,b)=>b[1]-a[1]).forEach(c=>{
+    const item = legend.append("div").attr("class","leg-item");
+    item.append("div").attr("class","leg-swatch").style("background", colors[c[0]]);
+    const txt = item.append("div").attr("class","leg-text");
+    txt.append("div").attr("class","leg-name").text(c[0]);
+    txt.append("div").attr("class","leg-pct").text(((c[1]/total)*100).toFixed(1)+"%");
+  });
+
+  const dangerSites = data.filter(d=>d.Danger==="In Danger").sort((a,b)=>a.Country.localeCompare(b.Country));
+  const list = d3.select("#danger-sites");
+  dangerSites.forEach(s=>{
+    const row = list.append("div").attr("class","danger-row");
+    row.append("span").text(s.Name_en);
+    row.append("span").attr("class","country").text(s.Country);
+  });
+  if(dangerSites.length === 0){
+    list.append("div").attr("class","danger-row").text("No sites currently listed as in danger.");
+  }
+}
+
+/* ---------------- Scenario 3: Line chart ---------------- */
+let activeRegions = new Set(Object.keys(palette));
+
+function renderLineChart(data){
+  const legend = d3.select("#line-legend");
+  Object.keys(palette).forEach(region=>{
+    const item = legend.append("div").attr("class","lr-item").attr("data-region", region)
+      .on("click", function(){
+        if(activeRegions.has(region)){
+          if(activeRegions.size > 1) activeRegions.delete(region);
+        } else {
+          activeRegions.add(region);
+        }
+        d3.select(this).classed("muted", !activeRegions.has(region));
+        drawLineChart(data);
+      });
+    item.append("div").attr("class","lr-swatch").style("background", palette[region]);
+    item.append("span").text(region);
+  });
+  drawLineChart(data);
+}
+
+function drawLineChart(data){
+  d3.select("#line-wrap").selectAll("*").remove();
+
+  const byRegionYear = d3.rollups(
+    data,
+    v => v.length,
+    d => d.Region,
+    d => d.Year
+  );
+
+  const allYears = d3.range(1978, 2020);
+  const series = byRegionYear.map(([region, yearCounts]) => {
+    const map = new Map(yearCounts);
+    let cumulative = 0;
+    const points = allYears.map(y => {
+      cumulative += (map.get(y) || 0);
+      return {year: y, count: map.get(y) || 0, cumulative};
+    });
+    return {region, points};
+  }).filter(s => activeRegions.has(s.region));
+
+  const width = document.getElementById('line-wrap').clientWidth || 900;
+  const height = 420;
+  const margin = {top: 20, right: 30, bottom: 36, left: 50};
+
+  const svg = d3.select("#line-wrap").append("svg")
+    .attr("width", width).attr("height", height);
+
+  const x = d3.scaleLinear().domain([1978, 2019]).range([margin.left, width-margin.right]);
+  const maxCum = d3.max(series.flatMap(s => s.points.map(p=>p.cumulative))) || 10;
+  const y = d3.scaleLinear().domain([0, maxCum]).nice().range([height-margin.bottom, margin.top]);
+
+  svg.append("g")
+    .attr("class","grid")
+    .attr("transform", `translate(0,${height-margin.bottom})`)
+    .call(d3.axisBottom(x).tickSize(-(height-margin.top-margin.bottom)).tickFormat(""));
+
+  svg.append("g").attr("class","axis")
+    .attr("transform", `translate(0,${height-margin.bottom})`)
+    .call(d3.axisBottom(x).tickFormat(d3.format("d")).ticks(8));
+
+  svg.append("g").attr("class","axis")
+    .attr("transform", `translate(${margin.left},0)`)
+    .call(d3.axisLeft(y).ticks(6));
+
+  const line = d3.line().x(d=>x(d.year)).y(d=>y(d.cumulative)).curve(d3.curveMonotoneX);
+
+  const tooltip = d3.select("#line-wrap").append("div").attr("class","chart-tooltip");
+
+  series.forEach(s => {
+    svg.append("path")
+      .datum(s.points)
+      .attr("class","line-path")
+      .attr("stroke", palette[s.region])
+      .attr("d", line);
+
+    svg.selectAll(`.dot-${s.region.replace(/\s/g,'')}`)
+      .data(s.points.filter((d,i)=> i % 3 === 0 || i === s.points.length-1))
+      .enter().append("circle")
+      .attr("class","dot")
+      .attr("cx", d=>x(d.year)).attr("cy", d=>y(d.cumulative))
+      .attr("r", 3).attr("fill", palette[s.region])
+      .on("mousemove", function(event,d){
+        const [mx,my] = d3.pointer(event, document.getElementById('line-wrap'));
+        tooltip.style("opacity",1)
+          .style("left",(mx+14)+"px").style("top",(my-10)+"px")
+          .html(`<strong>${s.region}</strong><br>${d.year}: ${d.cumulative} cumulative sites`);
+      })
+      .on("mouseleave", ()=>tooltip.style("opacity",0));
+  });
+}
+</script>
+
+</body>
+</html>

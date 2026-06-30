@@ -1,0 +1,756 @@
+Site_ID,Name_en,Country,Region,Category,Date_inscribed,Danger
+1,National Park of Italy,Italy,Europe and North America,Cultural,1995-04-08,Not in Danger
+2,Caves of Italy,Italy,Europe and North America,Cultural,2005-01-01,Not in Danger
+3,Forest of Italy,Italy,Europe and North America,Cultural,1990-12-21,Not in Danger
+4,Ruins of the Valley,Italy,Europe and North America,Cultural,1988-12-14,Not in Danger
+5,Cultural Landscape of Italy,Italy,Europe and North America,Cultural,2002-02-12,Not in Danger
+6,Old Town of the Borderlands,Italy,Europe and North America,Natural,1985-07-03,Not in Danger
+7,Forest of the Hills,Italy,Europe and North America,Cultural,2014-04-23,Not in Danger
+8,Monastery of the Highlands,Italy,Europe and North America,Natural,1984-07-09,Not in Danger
+9,Archaeological Site of the Lake,Italy,Europe and North America,Cultural,1995-12-22,Not in Danger
+10,Archaeological Site of the Highlands,Italy,Europe and North America,Natural,1988-08-13,Not in Danger
+11,Caves of Italy,Italy,Europe and North America,Natural,1998-01-08,Not in Danger
+12,Rock Art Sites of Italy,Italy,Europe and North America,Cultural,1991-10-23,Not in Danger
+13,Rock Art Sites of the Bay,Italy,Europe and North America,Cultural,1987-05-05,Not in Danger
+14,Royal Palace of the Desert,Italy,Europe and North America,Mixed,2015-07-12,Not in Danger
+15,River Delta of the North,Italy,Europe and North America,Cultural,1985-03-21,Not in Danger
+16,Forest of Italy,Italy,Europe and North America,Mixed,2002-10-15,Not in Danger
+17,Historic Centre of Saint Mary,Italy,Europe and North America,Cultural,2012-05-25,Not in Danger
+18,Mountains of Italy,Italy,Europe and North America,Cultural,1978-12-24,Not in Danger
+19,Archaeological Site of Saint Mary,Italy,Europe and North America,Cultural,2018-05-27,Not in Danger
+20,Temple of the Ancients,Italy,Europe and North America,Cultural,2012-09-01,Not in Danger
+21,National Park of the Old Quarter,Italy,Europe and North America,Natural,1993-01-08,Not in Danger
+22,Ancient City of the Coast,Italy,Europe and North America,Natural,2012-03-05,Not in Danger
+23,Archaeological Site of Italy,Italy,Europe and North America,Cultural,2016-07-07,Not in Danger
+24,Cathedral of the Plains,Italy,Europe and North America,Cultural,2019-06-15,Not in Danger
+25,Fortress of Italy,Italy,Europe and North America,Cultural,1999-01-19,Not in Danger
+26,Historic Centre of Italy,Italy,Europe and North America,Cultural,2018-01-08,Not in Danger
+27,Cultural Landscape of Italy,Italy,Europe and North America,Cultural,1993-05-22,Not in Danger
+28,Wetlands of the Highlands,Italy,Europe and North America,Cultural,2008-07-07,Not in Danger
+29,Mountains of the North,China,Asia and the Pacific,Cultural,2019-11-04,Not in Danger
+30,National Park of China,China,Asia and the Pacific,Cultural,1990-09-15,Not in Danger
+31,Ruins of China,China,Asia and the Pacific,Cultural,1982-08-26,Not in Danger
+32,Old Town of the Borderlands,China,Asia and the Pacific,Cultural,1978-02-25,Not in Danger
+33,Island of the Plains,China,Asia and the Pacific,Cultural,1981-03-13,In Danger
+34,Ruins of China,China,Asia and the Pacific,Cultural,2013-11-23,Not in Danger
+35,Cathedral of the Sanctuary,China,Asia and the Pacific,Cultural,2012-01-24,Not in Danger
+36,Island of the Capital,China,Asia and the Pacific,Cultural,1988-01-17,Not in Danger
+37,Forest of China,China,Asia and the Pacific,Cultural,1993-07-04,Not in Danger
+38,Wetlands of the Pass,China,Asia and the Pacific,Cultural,1983-07-22,Not in Danger
+39,Royal Palace of China,China,Asia and the Pacific,Cultural,1998-04-09,Not in Danger
+40,Monastery of the Coast,China,Asia and the Pacific,Mixed,1978-08-20,Not in Danger
+41,Ancient City of the Capital,China,Asia and the Pacific,Natural,1994-03-12,Not in Danger
+42,Nature Reserve of China,China,Asia and the Pacific,Mixed,2006-09-23,Not in Danger
+43,River Delta of China,China,Asia and the Pacific,Natural,2013-05-22,Not in Danger
+44,Royal Palace of China,China,Asia and the Pacific,Cultural,1984-12-18,Not in Danger
+45,Cathedral of the Lake,China,Asia and the Pacific,Natural,2018-05-17,Not in Danger
+46,Old Town of China,China,Asia and the Pacific,Natural,2005-05-02,In Danger
+47,Royal Palace of China,China,Asia and the Pacific,Cultural,2006-09-23,Not in Danger
+48,Temple of the Hills,Spain,Europe and North America,Cultural,2015-09-05,Not in Danger
+49,Nature Reserve of the North,Spain,Europe and North America,Cultural,2000-04-22,Not in Danger
+50,Caves of the Desert,Spain,Europe and North America,Cultural,2017-12-05,Not in Danger
+51,Archaeological Site of the Ancients,Spain,Europe and North America,Cultural,2004-01-06,Not in Danger
+52,Mountains of the Highlands,Spain,Europe and North America,Cultural,1995-03-26,Not in Danger
+53,Old Town of the Highlands,Spain,Europe and North America,Natural,1990-08-12,Not in Danger
+54,Fortress of Spain,Spain,Europe and North America,Cultural,1990-07-11,Not in Danger
+55,Royal Palace of the Capital,Spain,Europe and North America,Natural,2003-11-27,Not in Danger
+56,National Park of the Sacred Grove,Spain,Europe and North America,Cultural,1989-10-09,In Danger
+57,Nature Reserve of the River,Spain,Europe and North America,Natural,2005-10-17,Not in Danger
+58,Royal Palace of France,France,Europe and North America,Cultural,2005-01-17,Not in Danger
+59,Cathedral of the Coast,France,Europe and North America,Cultural,1999-10-11,Not in Danger
+60,Monastery of the Desert,France,Europe and North America,Cultural,1998-07-23,Not in Danger
+61,Mountains of the Plains,France,Europe and North America,Cultural,1989-10-19,Not in Danger
+62,Historic Centre of the Lake,France,Europe and North America,Cultural,2005-10-20,Not in Danger
+63,Ruins of the Capital,France,Europe and North America,Cultural,2008-12-06,Not in Danger
+64,Forest of the Highlands,France,Europe and North America,Cultural,1997-04-26,Not in Danger
+65,Fortress of the Pass,France,Europe and North America,Cultural,1982-08-14,Not in Danger
+66,Rock Art Sites of the Highlands,France,Europe and North America,Cultural,1987-11-23,In Danger
+67,National Park of the Highlands,France,Europe and North America,Cultural,1989-12-17,Not in Danger
+68,National Park of the Bay,France,Europe and North America,Cultural,2011-09-20,Not in Danger
+69,Ruins of the Capital,France,Europe and North America,Cultural,2005-09-15,Not in Danger
+70,Island of the Highlands,France,Europe and North America,Cultural,2018-05-25,Not in Danger
+71,Fortress of France,France,Europe and North America,Cultural,1982-12-10,Not in Danger
+72,Ancient City of Germany,Germany,Europe and North America,Cultural,1992-07-23,Not in Danger
+73,Mountains of the Borderlands,Germany,Europe and North America,Cultural,2007-07-02,Not in Danger
+74,Wetlands of the Valley,Germany,Europe and North America,Cultural,2014-07-16,In Danger
+75,Rock Art Sites of the Desert,Germany,Europe and North America,Cultural,2012-12-24,Not in Danger
+76,Fortress of the Sacred Grove,Germany,Europe and North America,Cultural,2005-08-01,Not in Danger
+77,Rock Art Sites of the Bay,Germany,Europe and North America,Cultural,1986-10-18,In Danger
+78,Wetlands of the Coast,Germany,Europe and North America,Cultural,2019-07-05,Not in Danger
+79,Royal Palace of the Lake,Germany,Europe and North America,Cultural,2007-06-11,Not in Danger
+80,Mountains of Germany,Germany,Europe and North America,Cultural,1983-08-01,Not in Danger
+81,Nature Reserve of Germany,Germany,Europe and North America,Natural,1982-11-02,Not in Danger
+82,Cathedral of the Pass,Germany,Europe and North America,Cultural,1987-04-05,Not in Danger
+83,Cathedral of the Sacred Grove,Germany,Europe and North America,Cultural,2001-03-20,Not in Danger
+84,National Park of the Ancients,Germany,Europe and North America,Cultural,1997-02-19,In Danger
+85,Rock Art Sites of the Lake,Germany,Europe and North America,Cultural,1982-10-23,Not in Danger
+86,Monastery of the Pass,Germany,Europe and North America,Cultural,1985-10-26,In Danger
+87,Nature Reserve of Germany,Germany,Europe and North America,Natural,2019-06-01,Not in Danger
+88,National Park of the Hills,Germany,Europe and North America,Cultural,2018-08-23,Not in Danger
+89,River Delta of the Sacred Grove,Germany,Europe and North America,Cultural,2017-09-25,Not in Danger
+90,Wetlands of Germany,Germany,Europe and North America,Cultural,1993-02-09,Not in Danger
+91,Ruins of the Plains,Germany,Europe and North America,Cultural,1999-01-16,Not in Danger
+92,Cathedral of the Sacred Grove,Germany,Europe and North America,Cultural,1999-05-20,Not in Danger
+93,Historic Centre of the Lake,Germany,Europe and North America,Cultural,1983-04-24,Not in Danger
+94,Fortress of the Peninsula,Germany,Europe and North America,Cultural,2006-01-03,Not in Danger
+95,Fortress of the Sanctuary,Germany,Europe and North America,Cultural,2001-08-18,Not in Danger
+96,Caves of the Bay,Germany,Europe and North America,Cultural,1995-05-09,Not in Danger
+97,National Park of the Ancients,India,Asia and the Pacific,Cultural,1990-04-24,Not in Danger
+98,River Delta of Saint Mary,India,Asia and the Pacific,Cultural,1990-05-08,Not in Danger
+99,Caves of India,India,Asia and the Pacific,Natural,1980-01-18,Not in Danger
+100,Island of India,India,Asia and the Pacific,Cultural,1978-10-10,Not in Danger
+101,Archaeological Site of the Sacred Grove,India,Asia and the Pacific,Cultural,2008-02-27,Not in Danger
+102,Wetlands of the North,India,Asia and the Pacific,Cultural,1987-03-26,Not in Danger
+103,Fortress of India,India,Asia and the Pacific,Cultural,2004-10-20,Not in Danger
+104,River Delta of the Bay,India,Asia and the Pacific,Cultural,1997-10-14,Not in Danger
+105,Forest of Saint Mary,India,Asia and the Pacific,Cultural,1991-11-07,Not in Danger
+106,Fortress of India,India,Asia and the Pacific,Cultural,1982-03-01,Not in Danger
+107,Island of India,India,Asia and the Pacific,Natural,1992-05-23,Not in Danger
+108,Ancient City of the Sacred Grove,India,Asia and the Pacific,Cultural,2018-10-22,Not in Danger
+109,National Park of the Kings,India,Asia and the Pacific,Natural,1995-03-03,In Danger
+110,Forest of the Sanctuary,India,Asia and the Pacific,Cultural,1996-08-04,Not in Danger
+111,Rock Art Sites of the Capital,India,Asia and the Pacific,Cultural,2012-08-15,Not in Danger
+112,Mountains of the Pass,India,Asia and the Pacific,Cultural,1994-01-03,Not in Danger
+113,Wetlands of the Valley,India,Asia and the Pacific,Cultural,1995-10-02,Not in Danger
+114,River Delta of the Sacred Grove,India,Asia and the Pacific,Cultural,1989-10-14,Not in Danger
+115,Island of the River,Mexico,Latin America and the Caribbean,Cultural,1998-11-04,Not in Danger
+116,Island of Mexico,Mexico,Latin America and the Caribbean,Cultural,2003-09-02,Not in Danger
+117,Cultural Landscape of Mexico,Mexico,Latin America and the Caribbean,Cultural,2003-09-27,Not in Danger
+118,Caves of the North,Mexico,Latin America and the Caribbean,Cultural,1990-09-12,Not in Danger
+119,Ruins of the Lake,Mexico,Latin America and the Caribbean,Cultural,1995-09-05,Not in Danger
+120,Island of Mexico,Mexico,Latin America and the Caribbean,Cultural,2018-10-26,Not in Danger
+121,Caves of Mexico,Mexico,Latin America and the Caribbean,Natural,2004-02-08,Not in Danger
+122,Ruins of the Kings,Mexico,Latin America and the Caribbean,Cultural,2009-12-10,Not in Danger
+123,Island of the Highlands,Mexico,Latin America and the Caribbean,Natural,2007-09-05,Not in Danger
+124,River Delta of the Kings,Mexico,Latin America and the Caribbean,Cultural,1982-05-25,Not in Danger
+125,Royal Palace of the Old Quarter,United Kingdom,Europe and North America,Cultural,1997-10-19,Not in Danger
+126,Temple of the Peninsula,United Kingdom,Europe and North America,Cultural,2000-06-18,Not in Danger
+127,Cultural Landscape of the Highlands,United Kingdom,Europe and North America,Cultural,2014-07-08,Not in Danger
+128,Cultural Landscape of the Plains,United Kingdom,Europe and North America,Mixed,2002-11-26,Not in Danger
+129,Island of the Kings,United Kingdom,Europe and North America,Natural,2010-10-11,Not in Danger
+130,Ruins of United Kingdom,United Kingdom,Europe and North America,Natural,2007-01-24,Not in Danger
+131,Temple of United Kingdom,United Kingdom,Europe and North America,Cultural,1994-06-20,Not in Danger
+132,Cultural Landscape of the Borderlands,United Kingdom,Europe and North America,Cultural,2002-06-21,Not in Danger
+133,Caves of United Kingdom,United Kingdom,Europe and North America,Cultural,1982-04-21,Not in Danger
+134,Fortress of the Desert,United Kingdom,Europe and North America,Cultural,1984-11-23,Not in Danger
+135,Monastery of the North,United Kingdom,Europe and North America,Cultural,1998-01-10,Not in Danger
+136,Fortress of the Sanctuary,United Kingdom,Europe and North America,Natural,1989-03-06,Not in Danger
+137,Forest of the Peninsula,United Kingdom,Europe and North America,Cultural,2015-03-08,Not in Danger
+138,Royal Palace of the Bay,United Kingdom,Europe and North America,Cultural,1996-11-18,Not in Danger
+139,Nature Reserve of the Old Quarter,United Kingdom,Europe and North America,Natural,2018-07-23,Not in Danger
+140,Cathedral of the Peninsula,United Kingdom,Europe and North America,Cultural,1984-04-13,Not in Danger
+141,Monastery of United Kingdom,United Kingdom,Europe and North America,Cultural,2003-05-01,Not in Danger
+142,Old Town of the Peninsula,United Kingdom,Europe and North America,Cultural,1996-04-20,Not in Danger
+143,Cathedral of the Kings,United Kingdom,Europe and North America,Cultural,2018-02-21,Not in Danger
+144,Ruins of United Kingdom,United Kingdom,Europe and North America,Cultural,2001-12-05,Not in Danger
+145,Mountains of United Kingdom,United Kingdom,Europe and North America,Natural,1986-09-12,Not in Danger
+146,Archaeological Site of United Kingdom,United Kingdom,Europe and North America,Natural,2008-05-24,Not in Danger
+147,Ruins of the Kings,United Kingdom,Europe and North America,Cultural,1992-11-24,Not in Danger
+148,Caves of the Plains,United Kingdom,Europe and North America,Cultural,1978-05-18,Not in Danger
+149,Royal Palace of the Hills,Russia,Europe and North America,Cultural,1984-11-08,Not in Danger
+150,Caves of the Pass,Russia,Europe and North America,Cultural,1992-11-03,Not in Danger
+151,Monastery of Saint Mary,Russia,Europe and North America,Cultural,1986-01-02,Not in Danger
+152,National Park of Russia,Russia,Europe and North America,Cultural,2012-03-13,Not in Danger
+153,Caves of the Kings,Russia,Europe and North America,Cultural,2004-11-04,Not in Danger
+154,Royal Palace of Russia,Russia,Europe and North America,Cultural,2001-04-15,Not in Danger
+155,Nature Reserve of Russia,Russia,Europe and North America,Cultural,2001-09-21,Not in Danger
+156,Cathedral of the Bay,Russia,Europe and North America,Cultural,1983-11-07,Not in Danger
+157,Historic Centre of Russia,Russia,Europe and North America,Cultural,1999-04-05,Not in Danger
+158,Caves of Russia,Russia,Europe and North America,Natural,1991-04-11,Not in Danger
+159,Forest of Russia,Russia,Europe and North America,Cultural,1987-03-18,Not in Danger
+160,Historic Centre of Russia,Russia,Europe and North America,Cultural,2000-04-19,Not in Danger
+161,Old Town of Russia,Russia,Europe and North America,Cultural,2004-09-04,Not in Danger
+162,Nature Reserve of Saint Mary,Russia,Europe and North America,Cultural,2006-09-08,Not in Danger
+163,River Delta of the Valley,Russia,Europe and North America,Cultural,1981-08-28,Not in Danger
+164,Island of the Bay,Russia,Europe and North America,Cultural,1982-02-11,Not in Danger
+165,Royal Palace of the Sanctuary,Russia,Europe and North America,Cultural,2013-12-11,Not in Danger
+166,Monastery of the Pass,Russia,Europe and North America,Natural,2005-02-26,Not in Danger
+167,Caves of the Lake,Russia,Europe and North America,Natural,2005-08-08,Not in Danger
+168,Rock Art Sites of Saint Mary,Russia,Europe and North America,Cultural,1998-07-11,Not in Danger
+169,Temple of the Peninsula,Russia,Europe and North America,Cultural,1982-02-27,Not in Danger
+170,Nature Reserve of the Borderlands,Russia,Europe and North America,Cultural,1981-10-18,Not in Danger
+171,Mountains of the Desert,Russia,Europe and North America,Cultural,1981-05-20,Not in Danger
+172,River Delta of Russia,Russia,Europe and North America,Natural,2008-04-28,Not in Danger
+173,Nature Reserve of Russia,Russia,Europe and North America,Natural,1995-10-08,Not in Danger
+174,Forest of the Borderlands,Russia,Europe and North America,Cultural,1979-10-22,Not in Danger
+175,Archaeological Site of Russia,Russia,Europe and North America,Natural,1997-06-12,In Danger
+176,Wetlands of the Coast,Russia,Europe and North America,Cultural,1987-12-21,Not in Danger
+177,River Delta of Russia,Russia,Europe and North America,Cultural,2004-08-11,Not in Danger
+178,Wetlands of the North,Iran,Asia and the Pacific,Cultural,1987-03-25,Not in Danger
+179,Royal Palace of the Desert,Iran,Asia and the Pacific,Cultural,2009-10-15,Not in Danger
+180,River Delta of Iran,Iran,Asia and the Pacific,Cultural,2005-02-10,Not in Danger
+181,River Delta of the North,Iran,Asia and the Pacific,Cultural,1992-07-20,In Danger
+182,Cathedral of the Sacred Grove,Iran,Asia and the Pacific,Cultural,1996-06-04,In Danger
+183,Archaeological Site of Iran,Iran,Asia and the Pacific,Natural,2012-12-08,Not in Danger
+184,Nature Reserve of Iran,Iran,Asia and the Pacific,Cultural,1980-07-01,Not in Danger
+185,Cultural Landscape of the Sanctuary,Iran,Asia and the Pacific,Cultural,2003-12-21,Not in Danger
+186,Historic Centre of the Ancients,Iran,Asia and the Pacific,Cultural,2017-08-27,Not in Danger
+187,Mountains of the Highlands,Iran,Asia and the Pacific,Cultural,2005-10-13,Not in Danger
+188,Monastery of the Highlands,Iran,Asia and the Pacific,Cultural,1999-03-03,Not in Danger
+189,River Delta of Iran,Iran,Asia and the Pacific,Cultural,2000-06-24,Not in Danger
+190,Temple of Iran,Iran,Asia and the Pacific,Cultural,1987-05-07,Not in Danger
+191,Ancient City of Iran,Iran,Asia and the Pacific,Cultural,2018-08-15,Not in Danger
+192,Ruins of the Sanctuary,Iran,Asia and the Pacific,Mixed,2019-11-20,Not in Danger
+193,Cultural Landscape of Iran,Iran,Asia and the Pacific,Natural,1982-08-15,Not in Danger
+194,Wetlands of Iran,Iran,Asia and the Pacific,Cultural,2010-02-10,Not in Danger
+195,Nature Reserve of the Coast,Iran,Asia and the Pacific,Cultural,2019-02-20,Not in Danger
+196,Caves of the North,United States,Europe and North America,Cultural,2006-10-21,Not in Danger
+197,River Delta of United States,United States,Europe and North America,Natural,1981-08-04,Not in Danger
+198,Ancient City of the Ancients,United States,Europe and North America,Cultural,1980-04-23,Not in Danger
+199,River Delta of the Hills,United States,Europe and North America,Cultural,2001-05-13,Not in Danger
+200,Forest of United States,United States,Europe and North America,Cultural,2018-11-11,Not in Danger
+201,Rock Art Sites of United States,United States,Europe and North America,Cultural,2016-03-11,Not in Danger
+202,Nature Reserve of the Plains,United States,Europe and North America,Cultural,1986-10-23,Not in Danger
+203,Rock Art Sites of the River,United States,Europe and North America,Cultural,1986-11-23,Not in Danger
+204,River Delta of United States,United States,Europe and North America,Cultural,2005-09-12,In Danger
+205,Cathedral of the Peninsula,United States,Europe and North America,Cultural,1990-04-05,Not in Danger
+206,River Delta of the Capital,Japan,Asia and the Pacific,Cultural,1980-11-11,Not in Danger
+207,Forest of the Ancients,Japan,Asia and the Pacific,Natural,1989-12-25,Not in Danger
+208,Ruins of Brazil,Brazil,Latin America and the Caribbean,Cultural,2001-11-24,Not in Danger
+209,Monastery of the Bay,Brazil,Latin America and the Caribbean,Natural,1992-09-08,Not in Danger
+210,Island of the Lake,Brazil,Latin America and the Caribbean,Cultural,2001-11-19,Not in Danger
+211,Monastery of the Capital,Brazil,Latin America and the Caribbean,Natural,2011-07-06,Not in Danger
+212,Temple of the North,Brazil,Latin America and the Caribbean,Natural,2019-08-28,Not in Danger
+213,River Delta of the Old Quarter,Brazil,Latin America and the Caribbean,Cultural,1983-03-09,Not in Danger
+214,Mountains of Brazil,Brazil,Latin America and the Caribbean,Cultural,1992-08-12,Not in Danger
+215,Rock Art Sites of the Highlands,Brazil,Latin America and the Caribbean,Cultural,2002-02-12,Not in Danger
+216,National Park of the River,Brazil,Latin America and the Caribbean,Natural,1987-03-02,Not in Danger
+217,Temple of the Peninsula,Brazil,Latin America and the Caribbean,Cultural,2006-10-01,Not in Danger
+218,Cathedral of the Borderlands,Brazil,Latin America and the Caribbean,Cultural,2016-09-14,Not in Danger
+219,Monastery of Brazil,Brazil,Latin America and the Caribbean,Cultural,1993-07-21,Not in Danger
+220,Island of the Valley,Greece,Europe and North America,Cultural,2018-09-19,Not in Danger
+221,Mountains of Greece,Greece,Europe and North America,Cultural,2000-04-19,Not in Danger
+222,River Delta of the Coast,Turkey,Europe and North America,Cultural,2011-09-17,Not in Danger
+223,Historic Centre of the Peninsula,Turkey,Europe and North America,Cultural,1980-11-13,Not in Danger
+224,Nature Reserve of the Hills,Peru,Latin America and the Caribbean,Natural,1993-12-22,Not in Danger
+225,Cultural Landscape of Australia,Australia,Asia and the Pacific,Cultural,2000-09-11,Not in Danger
+226,Ruins of the Peninsula,Australia,Asia and the Pacific,Cultural,2018-03-26,Not in Danger
+227,Ruins of Australia,Australia,Asia and the Pacific,Cultural,1990-01-26,Not in Danger
+228,Monastery of the Borderlands,Australia,Asia and the Pacific,Cultural,2008-05-02,Not in Danger
+229,Nature Reserve of the North,Australia,Asia and the Pacific,Cultural,2019-06-09,Not in Danger
+230,Rock Art Sites of the Plains,Australia,Asia and the Pacific,Cultural,1999-03-16,Not in Danger
+231,River Delta of Australia,Australia,Asia and the Pacific,Cultural,1983-12-14,Not in Danger
+232,Archaeological Site of the River,Australia,Asia and the Pacific,Cultural,1984-02-11,Not in Danger
+233,Forest of the Ancients,Australia,Asia and the Pacific,Natural,2006-06-15,In Danger
+234,Nature Reserve of the Desert,Australia,Asia and the Pacific,Cultural,1995-11-26,Not in Danger
+235,Rock Art Sites of the Ancients,Australia,Asia and the Pacific,Natural,1979-03-28,Not in Danger
+236,Old Town of Australia,Australia,Asia and the Pacific,Natural,1993-11-12,Not in Danger
+237,Forest of Canada,Canada,Europe and North America,Cultural,2006-06-12,Not in Danger
+238,River Delta of the River,Portugal,Europe and North America,Cultural,2019-05-08,Not in Danger
+239,Archaeological Site of the Plains,Portugal,Europe and North America,Cultural,2013-02-09,Not in Danger
+240,Cathedral of the Old Quarter,Portugal,Europe and North America,Cultural,2009-04-04,Not in Danger
+241,Ruins of the River,Poland,Europe and North America,Cultural,2000-12-03,Not in Danger
+242,Monastery of the Ancients,Poland,Europe and North America,Cultural,2001-09-08,Not in Danger
+243,Temple of Poland,Poland,Europe and North America,Cultural,2009-01-12,Not in Danger
+244,Temple of the Coast,South Korea,Asia and the Pacific,Cultural,1982-05-13,Not in Danger
+245,River Delta of the Desert,South Korea,Asia and the Pacific,Cultural,2014-02-05,Not in Danger
+246,Ruins of the Capital,South Korea,Asia and the Pacific,Cultural,2000-03-27,Not in Danger
+247,Archaeological Site of the Kings,South Korea,Asia and the Pacific,Cultural,2005-09-28,In Danger
+248,Temple of the Ancients,South Korea,Asia and the Pacific,Natural,1998-12-08,Not in Danger
+249,Monastery of the Sacred Grove,South Korea,Asia and the Pacific,Cultural,1990-11-18,Not in Danger
+250,Forest of the Capital,South Korea,Asia and the Pacific,Cultural,2019-03-19,Not in Danger
+251,Forest of the Pass,South Korea,Asia and the Pacific,Cultural,1999-10-02,Not in Danger
+252,Old Town of the Sanctuary,South Korea,Asia and the Pacific,Cultural,1994-11-07,Not in Danger
+253,Historic Centre of the Borderlands,Egypt,Arab States,Natural,1996-11-10,Not in Danger
+254,Rock Art Sites of Egypt,Egypt,Arab States,Cultural,1982-12-02,Not in Danger
+255,Ruins of Egypt,Egypt,Arab States,Cultural,2016-03-11,Not in Danger
+256,Nature Reserve of the Kings,Egypt,Arab States,Cultural,2001-09-18,Not in Danger
+257,National Park of Egypt,Egypt,Arab States,Natural,1993-03-04,In Danger
+258,Forest of the Ancients,Egypt,Arab States,Cultural,1998-10-24,Not in Danger
+259,Island of the Bay,Egypt,Arab States,Natural,2009-05-16,In Danger
+260,River Delta of the Highlands,Egypt,Arab States,Cultural,1991-10-12,In Danger
+261,Forest of the Peninsula,Egypt,Arab States,Cultural,1996-09-01,Not in Danger
+262,Royal Palace of the Plains,Egypt,Arab States,Cultural,2001-01-13,In Danger
+263,Nature Reserve of the Coast,Egypt,Arab States,Cultural,2002-09-15,Not in Danger
+264,Forest of Indonesia,Indonesia,Asia and the Pacific,Cultural,1984-07-12,Not in Danger
+265,Nature Reserve of the Lake,Indonesia,Asia and the Pacific,Cultural,2016-09-13,Not in Danger
+266,Temple of the Peninsula,Indonesia,Asia and the Pacific,Cultural,2011-08-05,Not in Danger
+267,Cultural Landscape of the River,Indonesia,Asia and the Pacific,Cultural,1988-07-20,Not in Danger
+268,Cultural Landscape of the Capital,Indonesia,Asia and the Pacific,Cultural,2012-08-23,Not in Danger
+269,Historic Centre of Saint Mary,Indonesia,Asia and the Pacific,Cultural,2004-10-10,Not in Danger
+270,Historic Centre of the Sacred Grove,Indonesia,Asia and the Pacific,Cultural,2019-10-19,Not in Danger
+271,Island of Indonesia,Indonesia,Asia and the Pacific,Cultural,2018-12-20,Not in Danger
+272,Fortress of Indonesia,Indonesia,Asia and the Pacific,Cultural,1985-04-01,Not in Danger
+273,Mountains of the Desert,Indonesia,Asia and the Pacific,Cultural,2010-10-16,Not in Danger
+274,Temple of the Borderlands,South Africa,Africa,Cultural,1998-11-16,Not in Danger
+275,Ruins of the River,Ethiopia,Africa,Cultural,2012-06-22,Not in Danger
+276,Royal Palace of the Lake,Ethiopia,Africa,Natural,1993-05-18,Not in Danger
+277,Monastery of the Lake,Ethiopia,Africa,Natural,2009-06-16,Not in Danger
+278,Royal Palace of Morocco,Morocco,Arab States,Mixed,2014-11-18,Not in Danger
+279,Nature Reserve of the Kings,Morocco,Arab States,Cultural,1996-01-10,Not in Danger
+280,Ruins of the Peninsula,Morocco,Arab States,Natural,1991-04-27,Not in Danger
+281,Royal Palace of Morocco,Morocco,Arab States,Cultural,2017-12-19,Not in Danger
+282,River Delta of Morocco,Morocco,Arab States,Cultural,1992-01-04,Not in Danger
+283,National Park of the Kings,Morocco,Arab States,Natural,1978-09-06,Not in Danger
+284,Island of the Lake,Morocco,Arab States,Natural,1996-06-10,Not in Danger
+285,Ancient City of the Highlands,Morocco,Arab States,Cultural,2012-12-24,Not in Danger
+286,Archaeological Site of the Ancients,Morocco,Arab States,Natural,1980-07-26,Not in Danger
+287,Monastery of the Valley,Morocco,Arab States,Mixed,1997-10-20,Not in Danger
+288,Monastery of the Borderlands,Morocco,Arab States,Cultural,2011-08-05,Not in Danger
+289,Cathedral of the River,Morocco,Arab States,Cultural,1988-12-15,Not in Danger
+290,Cultural Landscape of the Sanctuary,Tunisia,Arab States,Natural,1990-03-20,Not in Danger
+291,River Delta of the Plains,Argentina,Latin America and the Caribbean,Natural,1984-03-05,Not in Danger
+292,Historic Centre of Argentina,Argentina,Latin America and the Caribbean,Cultural,1993-08-25,Not in Danger
+293,Wetlands of the Valley,Argentina,Latin America and the Caribbean,Cultural,1994-11-12,Not in Danger
+294,National Park of the Ancients,Argentina,Latin America and the Caribbean,Natural,2003-11-17,Not in Danger
+295,Monastery of the Old Quarter,Argentina,Latin America and the Caribbean,Cultural,2001-10-08,Not in Danger
+296,Temple of the Pass,Argentina,Latin America and the Caribbean,Cultural,2001-07-23,Not in Danger
+297,Caves of the Lake,Argentina,Latin America and the Caribbean,Natural,1993-11-25,Not in Danger
+298,Ruins of the Hills,Colombia,Latin America and the Caribbean,Cultural,1982-10-04,Not in Danger
+299,River Delta of Colombia,Colombia,Latin America and the Caribbean,Cultural,2012-03-06,Not in Danger
+300,National Park of the Sanctuary,Colombia,Latin America and the Caribbean,Cultural,2009-02-17,Not in Danger
+301,Temple of the Bay,Colombia,Latin America and the Caribbean,Natural,2014-01-18,Not in Danger
+302,Historic Centre of the Valley,Colombia,Latin America and the Caribbean,Cultural,1991-10-03,In Danger
+303,Ancient City of the North,Colombia,Latin America and the Caribbean,Cultural,1982-08-02,Not in Danger
+304,Temple of the Desert,Colombia,Latin America and the Caribbean,Natural,2001-07-15,Not in Danger
+305,Rock Art Sites of Colombia,Colombia,Latin America and the Caribbean,Cultural,2012-03-21,Not in Danger
+306,Caves of the Kings,Colombia,Latin America and the Caribbean,Cultural,1992-01-25,In Danger
+307,Caves of the Plains,Sweden,Europe and North America,Cultural,1992-04-15,Not in Danger
+308,National Park of Sweden,Sweden,Europe and North America,Natural,2004-10-25,Not in Danger
+309,Fortress of Sweden,Sweden,Europe and North America,Cultural,1984-10-02,Not in Danger
+310,Old Town of Sweden,Sweden,Europe and North America,Cultural,1980-07-15,Not in Danger
+311,Old Town of Sweden,Sweden,Europe and North America,Cultural,1996-04-27,Not in Danger
+312,Wetlands of the River,Sweden,Europe and North America,Cultural,1993-05-05,Not in Danger
+313,Mountains of the North,Sweden,Europe and North America,Cultural,2013-10-24,Not in Danger
+314,Mountains of the North,Sweden,Europe and North America,Cultural,2000-11-22,Not in Danger
+315,Mountains of the Old Quarter,Sweden,Europe and North America,Cultural,2002-03-25,Not in Danger
+316,Fortress of the Kings,Sweden,Europe and North America,Cultural,2007-01-18,Not in Danger
+317,River Delta of Sweden,Sweden,Europe and North America,Cultural,1993-05-07,Not in Danger
+318,Nature Reserve of Norway,Norway,Europe and North America,Cultural,1990-01-09,Not in Danger
+319,Old Town of the Lake,Norway,Europe and North America,Cultural,2015-12-22,Not in Danger
+320,Cultural Landscape of the Valley,Norway,Europe and North America,Mixed,1991-04-24,Not in Danger
+321,Island of the Pass,Norway,Europe and North America,Natural,1991-07-08,Not in Danger
+322,Rock Art Sites of the Hills,Norway,Europe and North America,Cultural,1997-05-12,Not in Danger
+323,National Park of the Peninsula,Norway,Europe and North America,Cultural,1998-04-12,Not in Danger
+324,Fortress of the Valley,Norway,Europe and North America,Cultural,1994-09-19,Not in Danger
+325,Temple of Norway,Norway,Europe and North America,Cultural,1992-07-19,Not in Danger
+326,Cultural Landscape of Netherlands,Netherlands,Europe and North America,Cultural,2009-12-21,Not in Danger
+327,Nature Reserve of Netherlands,Netherlands,Europe and North America,Cultural,2012-08-06,Not in Danger
+328,Old Town of the Coast,Netherlands,Europe and North America,Cultural,1981-01-14,Not in Danger
+329,Ancient City of the Valley,Netherlands,Europe and North America,Cultural,1991-09-15,Not in Danger
+330,Forest of the Peninsula,Netherlands,Europe and North America,Cultural,1979-01-18,Not in Danger
+331,River Delta of the Borderlands,Netherlands,Europe and North America,Cultural,1996-01-17,Not in Danger
+332,Archaeological Site of Netherlands,Netherlands,Europe and North America,Cultural,1984-09-05,Not in Danger
+333,Royal Palace of the Sacred Grove,Netherlands,Europe and North America,Cultural,2003-02-12,Not in Danger
+334,Fortress of the Highlands,Netherlands,Europe and North America,Cultural,1997-11-27,Not in Danger
+335,Old Town of Netherlands,Netherlands,Europe and North America,Cultural,2002-07-18,Not in Danger
+336,Archaeological Site of Netherlands,Netherlands,Europe and North America,Mixed,2005-11-26,Not in Danger
+337,River Delta of the Highlands,Austria,Europe and North America,Cultural,1991-12-19,Not in Danger
+338,Ancient City of the Sacred Grove,Austria,Europe and North America,Natural,2012-10-22,In Danger
+339,Historic Centre of the Sanctuary,Czech Republic,Europe and North America,Cultural,1987-12-27,Not in Danger
+340,Archaeological Site of the Sanctuary,Czech Republic,Europe and North America,Cultural,2002-11-18,Not in Danger
+341,Temple of the Coast,Czech Republic,Europe and North America,Cultural,2010-12-12,In Danger
+342,Ancient City of the Pass,Czech Republic,Europe and North America,Cultural,2016-07-25,Not in Danger
+343,Ruins of the Hills,Czech Republic,Europe and North America,Cultural,2013-07-14,Not in Danger
+344,Rock Art Sites of Czech Republic,Czech Republic,Europe and North America,Cultural,2017-05-26,Not in Danger
+345,Temple of the Kings,Thailand,Asia and the Pacific,Cultural,2002-06-12,Not in Danger
+346,Monastery of the Sacred Grove,Thailand,Asia and the Pacific,Cultural,1984-03-03,Not in Danger
+347,Caves of Saint Mary,Thailand,Asia and the Pacific,Cultural,1979-02-12,Not in Danger
+348,Cultural Landscape of the Valley,Thailand,Asia and the Pacific,Cultural,1996-07-13,Not in Danger
+349,Caves of the Highlands,Thailand,Asia and the Pacific,Cultural,2014-09-06,Not in Danger
+350,Monastery of Vietnam,Vietnam,Asia and the Pacific,Cultural,1987-02-06,Not in Danger
+351,Island of the Hills,Vietnam,Asia and the Pacific,Cultural,1994-04-24,Not in Danger
+352,Cathedral of the Kings,Vietnam,Asia and the Pacific,Cultural,1997-01-13,Not in Danger
+353,Cultural Landscape of the Desert,Vietnam,Asia and the Pacific,Cultural,2019-10-05,Not in Danger
+354,Cathedral of the Ancients,Vietnam,Asia and the Pacific,Cultural,2003-06-10,Not in Danger
+355,Fortress of the Sacred Grove,Cambodia,Asia and the Pacific,Cultural,2003-06-04,Not in Danger
+356,Caves of Cambodia,Cambodia,Asia and the Pacific,Cultural,2013-01-24,Not in Danger
+357,Ruins of the Coast,Cambodia,Asia and the Pacific,Cultural,2004-11-16,Not in Danger
+358,Royal Palace of the Desert,Cambodia,Asia and the Pacific,Cultural,2002-02-15,Not in Danger
+359,Rock Art Sites of the Desert,Cambodia,Asia and the Pacific,Cultural,2012-01-26,Not in Danger
+360,Caves of the Coast,Cambodia,Asia and the Pacific,Cultural,1984-04-22,Not in Danger
+361,Forest of Cambodia,Cambodia,Asia and the Pacific,Cultural,2019-11-21,Not in Danger
+362,Mountains of Cambodia,Cambodia,Asia and the Pacific,Cultural,1984-05-08,Not in Danger
+363,Wetlands of the Highlands,Cambodia,Asia and the Pacific,Cultural,2006-06-13,Not in Danger
+364,River Delta of Cambodia,Cambodia,Asia and the Pacific,Natural,1979-08-04,Not in Danger
+365,National Park of the Kings,Kenya,Africa,Cultural,2000-05-11,Not in Danger
+366,Island of Saint Mary,Kenya,Africa,Cultural,2006-12-23,Not in Danger
+367,National Park of Tanzania,Tanzania,Africa,Cultural,1999-11-04,Not in Danger
+368,Fortress of the Borderlands,Nigeria,Africa,Cultural,1988-06-18,Not in Danger
+369,Rock Art Sites of the Ancients,Nigeria,Africa,Cultural,2018-11-14,Not in Danger
+370,Cathedral of the Desert,Nigeria,Africa,Cultural,2002-01-23,Not in Danger
+371,Ancient City of the Borderlands,Nigeria,Africa,Cultural,1989-06-11,Not in Danger
+372,Island of the River,Nigeria,Africa,Cultural,2016-07-20,Not in Danger
+373,Nature Reserve of the Pass,Nigeria,Africa,Natural,1989-11-23,Not in Danger
+374,Wetlands of Nigeria,Nigeria,Africa,Cultural,1986-06-04,Not in Danger
+375,Nature Reserve of the Capital,Nigeria,Africa,Cultural,2002-07-20,Not in Danger
+376,Archaeological Site of the Borderlands,Nigeria,Africa,Cultural,2019-03-18,Not in Danger
+377,Archaeological Site of the Bay,Nigeria,Africa,Cultural,2017-01-28,Not in Danger
+378,Temple of Nigeria,Nigeria,Africa,Cultural,2002-09-17,Not in Danger
+379,Island of the Bay,Nigeria,Africa,Natural,2009-03-03,Not in Danger
+380,Monastery of Israel,Israel,Arab States,Cultural,1992-09-10,Not in Danger
+381,Island of Saint Mary,Israel,Arab States,Natural,2014-02-09,Not in Danger
+382,Nature Reserve of the North,Israel,Arab States,Cultural,2006-09-07,Not in Danger
+383,Fortress of Israel,Israel,Arab States,Natural,1980-08-09,Not in Danger
+384,National Park of the Highlands,Jordan,Arab States,Natural,1991-12-19,Not in Danger
+385,Forest of the Ancients,Jordan,Arab States,Cultural,2017-03-26,Not in Danger
+386,Old Town of the Borderlands,Jordan,Arab States,Mixed,1995-10-18,Not in Danger
+387,Monastery of Jordan,Jordan,Arab States,Cultural,1995-09-22,Not in Danger
+388,Mountains of the Sacred Grove,Jordan,Arab States,Cultural,2019-03-23,Not in Danger
+389,Cultural Landscape of the Plains,Jordan,Arab States,Cultural,2009-03-19,Not in Danger
+390,Rock Art Sites of the Coast,Jordan,Arab States,Natural,2003-09-24,Not in Danger
+391,Nature Reserve of the Peninsula,Jordan,Arab States,Natural,1998-10-01,Not in Danger
+392,Ruins of the Hills,Saudi Arabia,Arab States,Cultural,1982-09-13,Not in Danger
+393,Cathedral of the River,Saudi Arabia,Arab States,Cultural,1996-06-18,Not in Danger
+394,Cultural Landscape of the North,Cuba,Latin America and the Caribbean,Cultural,1980-02-21,Not in Danger
+395,National Park of the Ancients,Cuba,Latin America and the Caribbean,Cultural,2006-08-01,Not in Danger
+396,Temple of the Old Quarter,Cuba,Latin America and the Caribbean,Cultural,1988-05-03,Not in Danger
+397,Nature Reserve of the Ancients,Cuba,Latin America and the Caribbean,Cultural,1981-07-21,Not in Danger
+398,Fortress of the Coast,Cuba,Latin America and the Caribbean,Cultural,1984-01-07,Not in Danger
+399,Fortress of the Bay,Cuba,Latin America and the Caribbean,Cultural,1978-01-23,Not in Danger
+400,Mountains of the Peninsula,Cuba,Latin America and the Caribbean,Natural,1982-04-13,Not in Danger
+401,National Park of the Old Quarter,Cuba,Latin America and the Caribbean,Natural,1986-07-25,Not in Danger
+402,Temple of Chile,Chile,Latin America and the Caribbean,Cultural,2014-01-20,Not in Danger
+403,Cathedral of the Kings,Chile,Latin America and the Caribbean,Cultural,2004-10-22,Not in Danger
+404,National Park of Chile,Chile,Latin America and the Caribbean,Mixed,1985-10-24,Not in Danger
+405,Cultural Landscape of the Highlands,Chile,Latin America and the Caribbean,Cultural,1995-11-03,Not in Danger
+406,Forest of Chile,Chile,Latin America and the Caribbean,Cultural,1979-11-10,Not in Danger
+407,Cathedral of the Old Quarter,Chile,Latin America and the Caribbean,Natural,2019-01-26,Not in Danger
+408,Island of the Highlands,Chile,Latin America and the Caribbean,Natural,2009-11-20,Not in Danger
+409,Historic Centre of the River,Chile,Latin America and the Caribbean,Cultural,1986-07-28,Not in Danger
+410,Caves of the Peninsula,Chile,Latin America and the Caribbean,Cultural,1982-01-19,Not in Danger
+411,Old Town of the Plains,Chile,Latin America and the Caribbean,Cultural,2010-05-21,Not in Danger
+412,Mountains of the Coast,Chile,Latin America and the Caribbean,Cultural,2018-09-18,Not in Danger
+413,Ancient City of the Lake,Ecuador,Latin America and the Caribbean,Cultural,1987-09-11,Not in Danger
+414,Ancient City of the Desert,Ecuador,Latin America and the Caribbean,Cultural,1993-01-08,Not in Danger
+415,Ruins of the North,Ecuador,Latin America and the Caribbean,Cultural,1997-11-24,Not in Danger
+416,Historic Centre of the Valley,Ecuador,Latin America and the Caribbean,Natural,1988-08-12,Not in Danger
+417,Royal Palace of Ecuador,Ecuador,Latin America and the Caribbean,Cultural,1986-12-25,Not in Danger
+418,Historic Centre of the Desert,New Zealand,Asia and the Pacific,Mixed,1995-09-03,Not in Danger
+419,Ancient City of the Capital,New Zealand,Asia and the Pacific,Cultural,2001-01-16,Not in Danger
+420,Royal Palace of the Sanctuary,Philippines,Asia and the Pacific,Cultural,1985-04-24,Not in Danger
+421,Historic Centre of Philippines,Philippines,Asia and the Pacific,Cultural,2008-06-13,Not in Danger
+422,Old Town of the Desert,Philippines,Asia and the Pacific,Cultural,1992-06-08,Not in Danger
+423,Ancient City of Saint Mary,Sri Lanka,Asia and the Pacific,Natural,2010-11-02,Not in Danger
+424,Old Town of the Coast,Sri Lanka,Asia and the Pacific,Cultural,2007-05-25,Not in Danger
+425,Caves of the Hills,Sri Lanka,Asia and the Pacific,Cultural,1990-05-19,Not in Danger
+426,Fortress of the Sanctuary,Sri Lanka,Asia and the Pacific,Cultural,2009-04-24,Not in Danger
+427,Fortress of Sri Lanka,Sri Lanka,Asia and the Pacific,Cultural,2004-01-08,Not in Danger
+428,Historic Centre of the Valley,Bulgaria,Europe and North America,Cultural,2002-12-24,Not in Danger
+429,Fortress of the North,Bulgaria,Europe and North America,Natural,1987-12-09,Not in Danger
+430,River Delta of the Hills,Bulgaria,Europe and North America,Cultural,2007-12-03,Not in Danger
+431,Rock Art Sites of Bulgaria,Bulgaria,Europe and North America,Cultural,2014-01-14,Not in Danger
+432,Monastery of Bulgaria,Bulgaria,Europe and North America,Cultural,1998-07-23,Not in Danger
+433,Ruins of Bulgaria,Bulgaria,Europe and North America,Cultural,1982-04-05,Not in Danger
+434,Temple of Bulgaria,Bulgaria,Europe and North America,Cultural,2006-08-11,Not in Danger
+435,Cathedral of the Bay,Bulgaria,Europe and North America,Cultural,1994-02-03,Not in Danger
+436,Forest of Bulgaria,Bulgaria,Europe and North America,Mixed,1998-03-03,Not in Danger
+437,Rock Art Sites of the Old Quarter,Bulgaria,Europe and North America,Natural,1994-03-01,Not in Danger
+438,Caves of the Highlands,Bulgaria,Europe and North America,Cultural,1984-08-04,Not in Danger
+439,Historic Centre of Bulgaria,Bulgaria,Europe and North America,Cultural,1992-03-07,Not in Danger
+440,Ancient City of the Sacred Grove,Hungary,Europe and North America,Cultural,1982-01-03,Not in Danger
+441,Temple of Hungary,Hungary,Europe and North America,Cultural,1999-02-02,Not in Danger
+442,Wetlands of the Plains,Hungary,Europe and North America,Cultural,2009-01-13,Not in Danger
+443,Cathedral of the Sacred Grove,Hungary,Europe and North America,Cultural,1995-08-05,In Danger
+444,Fortress of the Peninsula,Hungary,Europe and North America,Cultural,2004-09-16,Not in Danger
+445,Temple of the Capital,Hungary,Europe and North America,Cultural,1993-11-26,Not in Danger
+446,Rock Art Sites of the Hills,Hungary,Europe and North America,Natural,2008-09-26,Not in Danger
+447,River Delta of the Sacred Grove,Hungary,Europe and North America,Cultural,1989-01-11,Not in Danger
+448,Royal Palace of Hungary,Hungary,Europe and North America,Mixed,2008-09-12,Not in Danger
+449,Archaeological Site of Hungary,Hungary,Europe and North America,Natural,1993-05-18,Not in Danger
+450,Old Town of the Highlands,Hungary,Europe and North America,Mixed,2014-07-12,Not in Danger
+451,Archaeological Site of Romania,Romania,Europe and North America,Cultural,1998-12-23,Not in Danger
+452,Nature Reserve of the Sanctuary,Romania,Europe and North America,Natural,1987-10-07,Not in Danger
+453,Island of the Ancients,Romania,Europe and North America,Cultural,2009-01-03,In Danger
+454,River Delta of the River,Croatia,Europe and North America,Cultural,2017-04-26,Not in Danger
+455,Old Town of Belgium,Belgium,Europe and North America,Natural,2015-12-05,Not in Danger
+456,Nature Reserve of the Hills,Belgium,Europe and North America,Cultural,2003-10-04,Not in Danger
+457,Archaeological Site of the Desert,Belgium,Europe and North America,Cultural,2018-08-21,Not in Danger
+458,Caves of the Pass,Belgium,Europe and North America,Cultural,2000-04-22,Not in Danger
+459,Monastery of the Old Quarter,Belgium,Europe and North America,Cultural,1986-03-24,In Danger
+460,Wetlands of the Sanctuary,Belgium,Europe and North America,Natural,1980-03-20,Not in Danger
+461,Fortress of Saint Mary,Switzerland,Europe and North America,Cultural,2009-03-11,Not in Danger
+462,Cultural Landscape of Switzerland,Switzerland,Europe and North America,Natural,1983-12-22,Not in Danger
+463,Ruins of Switzerland,Switzerland,Europe and North America,Cultural,1991-04-23,Not in Danger
+464,National Park of the North,Switzerland,Europe and North America,Cultural,2002-08-24,Not in Danger
+465,Mountains of the Plains,Switzerland,Europe and North America,Cultural,2000-09-13,Not in Danger
+466,Wetlands of the Highlands,Switzerland,Europe and North America,Cultural,1988-08-03,Not in Danger
+467,Historic Centre of Saint Mary,Switzerland,Europe and North America,Cultural,1982-06-06,Not in Danger
+468,Ancient City of the Coast,Switzerland,Europe and North America,Cultural,1999-10-20,Not in Danger
+469,Mountains of the Ancients,Switzerland,Europe and North America,Cultural,2016-07-06,In Danger
+470,Cathedral of the Borderlands,Switzerland,Europe and North America,Cultural,2012-05-22,Not in Danger
+471,Rock Art Sites of the Peninsula,Iraq,Arab States,Cultural,1987-01-12,In Danger
+472,Forest of Saint Mary,Syria,Arab States,Mixed,1979-04-06,Not in Danger
+473,Island of the Old Quarter,Syria,Arab States,Cultural,2003-08-16,Not in Danger
+474,Caves of the Hills,Syria,Arab States,Cultural,2002-06-06,Not in Danger
+475,Ruins of Syria,Syria,Arab States,Cultural,1995-10-02,Not in Danger
+476,National Park of Syria,Syria,Arab States,Cultural,2000-09-14,Not in Danger
+477,Caves of Syria,Syria,Arab States,Cultural,2002-09-14,Not in Danger
+478,Island of the Highlands,Syria,Arab States,Natural,2008-05-03,Not in Danger
+479,Old Town of the Capital,Syria,Arab States,Natural,2014-11-20,Not in Danger
+480,Ruins of Syria,Syria,Arab States,Cultural,1988-04-26,Not in Danger
+481,Ancient City of the Desert,Syria,Arab States,Cultural,1990-11-05,Not in Danger
+482,Ancient City of Syria,Syria,Arab States,Cultural,2013-07-18,Not in Danger
+483,Historic Centre of the Pass,Libya,Arab States,Cultural,2015-09-26,Not in Danger
+484,Temple of the Sanctuary,Libya,Arab States,Natural,1984-02-19,Not in Danger
+485,Caves of the Desert,Libya,Arab States,Cultural,1994-07-21,Not in Danger
+486,Old Town of Libya,Libya,Arab States,Cultural,2003-03-20,Not in Danger
+487,Old Town of the River,Libya,Arab States,Cultural,1993-01-24,Not in Danger
+488,Nature Reserve of Libya,Libya,Arab States,Natural,1997-05-09,Not in Danger
+489,National Park of the Highlands,Libya,Arab States,Natural,1986-05-24,Not in Danger
+490,Royal Palace of the Pass,Libya,Arab States,Natural,2019-02-07,Not in Danger
+491,Island of the Hills,Algeria,Arab States,Cultural,1981-09-26,Not in Danger
+492,River Delta of the Capital,Algeria,Arab States,Natural,2014-01-06,Not in Danger
+493,Old Town of Algeria,Algeria,Arab States,Cultural,2007-01-12,Not in Danger
+494,Ruins of Saint Mary,Algeria,Arab States,Cultural,1979-04-12,Not in Danger
+495,Island of the Hills,Algeria,Arab States,Cultural,2000-03-27,Not in Danger
+496,Ancient City of Algeria,Algeria,Arab States,Natural,2002-01-06,Not in Danger
+497,Cathedral of the Highlands,Algeria,Arab States,Cultural,1991-05-21,Not in Danger
+498,Historic Centre of the Kings,Ghana,Africa,Cultural,2019-03-20,Not in Danger
+499,Forest of the Old Quarter,Ghana,Africa,Natural,2019-05-14,Not in Danger
+500,Ruins of Ghana,Ghana,Africa,Cultural,2007-05-22,Not in Danger
+501,Wetlands of Ghana,Ghana,Africa,Cultural,2010-11-27,Not in Danger
+502,Forest of the Old Quarter,Ghana,Africa,Cultural,1984-08-03,Not in Danger
+503,Cultural Landscape of the Sacred Grove,Ghana,Africa,Cultural,2019-12-21,Not in Danger
+504,Fortress of the Pass,Ghana,Africa,Cultural,2003-11-11,Not in Danger
+505,Island of the Sacred Grove,Ghana,Africa,Cultural,2004-07-13,Not in Danger
+506,Wetlands of the River,Ghana,Africa,Cultural,1992-11-18,Not in Danger
+507,Nature Reserve of the Ancients,Ghana,Africa,Cultural,2013-03-10,Not in Danger
+508,Royal Palace of the Borderlands,Ghana,Africa,Cultural,1989-11-11,Not in Danger
+509,Monastery of the River,Mali,Africa,Natural,2001-05-19,Not in Danger
+510,Island of Mali,Mali,Africa,Cultural,2018-10-19,Not in Danger
+511,Cathedral of the Plains,Mali,Africa,Natural,2011-05-14,In Danger
+512,Temple of the River,Mali,Africa,Natural,2004-10-15,Not in Danger
+513,Ancient City of the Ancients,Senegal,Africa,Cultural,1998-11-02,In Danger
+514,Archaeological Site of the Ancients,Senegal,Africa,Cultural,2009-02-05,Not in Danger
+515,Rock Art Sites of the Peninsula,Senegal,Africa,Cultural,2002-01-02,Not in Danger
+516,Cultural Landscape of the Capital,Zimbabwe,Africa,Cultural,1990-01-22,In Danger
+517,Nature Reserve of Saint Mary,Madagascar,Africa,Cultural,2002-09-19,Not in Danger
+518,Old Town of Madagascar,Madagascar,Africa,Cultural,1996-08-24,Not in Danger
+519,Mountains of the Kings,Madagascar,Africa,Cultural,1999-08-12,Not in Danger
+520,Rock Art Sites of Madagascar,Madagascar,Africa,Cultural,1992-12-05,Not in Danger
+521,Archaeological Site of Mongolia,Mongolia,Asia and the Pacific,Cultural,2019-01-13,Not in Danger
+522,Caves of the Pass,Mongolia,Asia and the Pacific,Cultural,1981-11-04,Not in Danger
+523,National Park of the Plains,Mongolia,Asia and the Pacific,Cultural,1985-09-09,Not in Danger
+524,Historic Centre of Saint Mary,Mongolia,Asia and the Pacific,Cultural,2011-05-20,Not in Danger
+525,National Park of the Pass,Mongolia,Asia and the Pacific,Cultural,1985-05-04,Not in Danger
+526,Forest of Mongolia,Mongolia,Asia and the Pacific,Cultural,1994-09-07,Not in Danger
+527,Archaeological Site of Mongolia,Mongolia,Asia and the Pacific,Cultural,2009-04-23,Not in Danger
+528,Historic Centre of Mongolia,Mongolia,Asia and the Pacific,Cultural,1983-02-27,Not in Danger
+529,Ancient City of the Coast,Mongolia,Asia and the Pacific,Mixed,1984-05-21,Not in Danger
+530,Royal Palace of Saint Mary,Nepal,Asia and the Pacific,Natural,1989-01-28,Not in Danger
+531,Cultural Landscape of Saint Mary,Nepal,Asia and the Pacific,Cultural,1984-01-01,Not in Danger
+532,Archaeological Site of the Bay,Nepal,Asia and the Pacific,Natural,2017-05-24,Not in Danger
+533,Archaeological Site of Nepal,Nepal,Asia and the Pacific,Cultural,2003-08-09,Not in Danger
+534,Island of the Ancients,Nepal,Asia and the Pacific,Mixed,1985-03-23,Not in Danger
+535,National Park of the Sanctuary,Pakistan,Asia and the Pacific,Cultural,2008-10-22,Not in Danger
+536,Nature Reserve of the Kings,Pakistan,Asia and the Pacific,Cultural,2008-08-04,Not in Danger
+537,Ancient City of Pakistan,Pakistan,Asia and the Pacific,Cultural,1998-01-23,Not in Danger
+538,Wetlands of the Highlands,Myanmar,Asia and the Pacific,Cultural,1999-09-17,Not in Danger
+539,Mountains of the Highlands,Myanmar,Asia and the Pacific,Cultural,2008-06-22,Not in Danger
+540,Caves of the Pass,Myanmar,Asia and the Pacific,Cultural,1981-01-21,Not in Danger
+541,Island of the Ancients,Myanmar,Asia and the Pacific,Mixed,1982-08-11,Not in Danger
+542,Old Town of the Borderlands,Myanmar,Asia and the Pacific,Cultural,2019-07-13,Not in Danger
+543,Ruins of the Bay,Myanmar,Asia and the Pacific,Mixed,1983-08-15,Not in Danger
+544,Historic Centre of Myanmar,Myanmar,Asia and the Pacific,Natural,2004-01-18,Not in Danger
+545,Forest of the Old Quarter,Myanmar,Asia and the Pacific,Cultural,2010-09-07,Not in Danger
+546,Cultural Landscape of the North,Myanmar,Asia and the Pacific,Cultural,1992-08-11,Not in Danger
+547,Island of the Hills,Myanmar,Asia and the Pacific,Cultural,2006-02-04,Not in Danger
+548,Cultural Landscape of the Old Quarter,Myanmar,Asia and the Pacific,Cultural,2013-09-12,Not in Danger
+549,Archaeological Site of the Desert,Myanmar,Asia and the Pacific,Cultural,1984-05-20,Not in Danger
+550,Cathedral of the Lake,Laos,Asia and the Pacific,Natural,1999-02-25,Not in Danger
+551,Wetlands of Laos,Laos,Asia and the Pacific,Cultural,2006-08-22,Not in Danger
+552,Island of Laos,Laos,Asia and the Pacific,Cultural,1981-09-14,Not in Danger
+553,River Delta of the Ancients,Laos,Asia and the Pacific,Cultural,2015-03-24,Not in Danger
+554,Forest of the River,Laos,Asia and the Pacific,Natural,2010-07-14,Not in Danger
+555,Fortress of Laos,Laos,Asia and the Pacific,Cultural,1999-05-15,Not in Danger
+556,Forest of the Capital,Laos,Asia and the Pacific,Cultural,1997-12-18,Not in Danger
+557,Cathedral of Georgia,Georgia,Europe and North America,Natural,2017-12-10,Not in Danger
+558,Temple of the Ancients,Georgia,Europe and North America,Cultural,2010-09-23,Not in Danger
+559,Nature Reserve of the Sanctuary,Georgia,Europe and North America,Cultural,2014-11-23,Not in Danger
+560,Caves of Georgia,Georgia,Europe and North America,Cultural,2005-01-17,Not in Danger
+561,Old Town of the Lake,Georgia,Europe and North America,Cultural,1995-03-10,Not in Danger
+562,Old Town of the Old Quarter,Georgia,Europe and North America,Cultural,1991-09-02,Not in Danger
+563,Forest of the Borderlands,Georgia,Europe and North America,Cultural,1992-12-21,Not in Danger
+564,Monastery of the North,Georgia,Europe and North America,Mixed,2002-07-14,Not in Danger
+565,Cultural Landscape of the North,Georgia,Europe and North America,Natural,1978-12-09,Not in Danger
+566,Fortress of the Hills,Armenia,Europe and North America,Natural,2015-09-24,Not in Danger
+567,Cathedral of Armenia,Armenia,Europe and North America,Cultural,1989-11-03,Not in Danger
+568,River Delta of Armenia,Armenia,Europe and North America,Cultural,1980-07-09,Not in Danger
+569,Wetlands of the Valley,Armenia,Europe and North America,Cultural,1999-08-23,Not in Danger
+570,Cultural Landscape of the Pass,Armenia,Europe and North America,Cultural,1997-08-26,Not in Danger
+571,Cultural Landscape of the Ancients,Armenia,Europe and North America,Cultural,2011-02-26,Not in Danger
+572,Caves of the Hills,Armenia,Europe and North America,Cultural,1992-04-22,Not in Danger
+573,Cathedral of the Pass,Armenia,Europe and North America,Mixed,2011-08-18,Not in Danger
+574,National Park of the Bay,Azerbaijan,Europe and North America,Cultural,1993-11-20,Not in Danger
+575,Cultural Landscape of Saint Mary,Ukraine,Europe and North America,Cultural,2002-05-18,Not in Danger
+576,Nature Reserve of the Capital,Slovakia,Europe and North America,Cultural,2006-08-02,Not in Danger
+577,Cultural Landscape of Saint Mary,Slovakia,Europe and North America,Cultural,1988-09-18,In Danger
+578,Cathedral of the Desert,Slovakia,Europe and North America,Natural,1984-04-18,Not in Danger
+579,Mountains of the Coast,Slovakia,Europe and North America,Cultural,1987-01-15,Not in Danger
+580,Ancient City of Slovakia,Slovakia,Europe and North America,Cultural,1994-09-03,Not in Danger
+581,Royal Palace of the Bay,Slovakia,Europe and North America,Cultural,2018-07-14,Not in Danger
+582,National Park of the Pass,Slovakia,Europe and North America,Natural,1982-12-19,In Danger
+583,Nature Reserve of Saint Mary,Slovakia,Europe and North America,Cultural,1996-11-10,Not in Danger
+584,Ruins of the Valley,Slovakia,Europe and North America,Cultural,2008-03-18,Not in Danger
+585,Monastery of the Kings,Slovenia,Europe and North America,Cultural,1997-11-26,Not in Danger
+586,Historic Centre of the Borderlands,Slovenia,Europe and North America,Cultural,1987-02-02,In Danger
+587,Caves of the Coast,Slovenia,Europe and North America,Cultural,1997-04-24,Not in Danger
+588,Cathedral of the Capital,Slovenia,Europe and North America,Natural,1987-03-06,Not in Danger
+589,Cathedral of Slovenia,Slovenia,Europe and North America,Mixed,2014-01-28,Not in Danger
+590,Caves of the Borderlands,Slovenia,Europe and North America,Cultural,1982-05-22,Not in Danger
+591,Wetlands of the River,Slovenia,Europe and North America,Cultural,2000-03-22,Not in Danger
+592,Forest of Slovenia,Slovenia,Europe and North America,Cultural,1990-06-16,Not in Danger
+593,Monastery of the Kings,Slovenia,Europe and North America,Natural,2014-10-12,Not in Danger
+594,Historic Centre of the Highlands,Serbia,Europe and North America,Cultural,2019-07-09,Not in Danger
+595,Cultural Landscape of the Bay,Serbia,Europe and North America,Cultural,2006-06-25,Not in Danger
+596,Archaeological Site of the Coast,Serbia,Europe and North America,Cultural,1995-03-18,Not in Danger
+597,Ancient City of the Valley,Denmark,Europe and North America,Cultural,2010-11-01,Not in Danger
+598,Wetlands of Denmark,Denmark,Europe and North America,Mixed,1980-09-09,Not in Danger
+599,Island of the Kings,Denmark,Europe and North America,Cultural,2001-07-08,Not in Danger
+600,Monastery of Denmark,Denmark,Europe and North America,Cultural,2010-09-03,Not in Danger
+601,Fortress of the Pass,Denmark,Europe and North America,Cultural,1988-09-05,Not in Danger
+602,Wetlands of the Kings,Denmark,Europe and North America,Cultural,2008-06-02,Not in Danger
+603,Ancient City of Denmark,Denmark,Europe and North America,Natural,1992-01-22,Not in Danger
+604,Nature Reserve of the Bay,Denmark,Europe and North America,Cultural,1980-01-21,Not in Danger
+605,River Delta of the Sacred Grove,Denmark,Europe and North America,Cultural,1994-10-18,Not in Danger
+606,Rock Art Sites of the Coast,Denmark,Europe and North America,Cultural,2011-05-13,Not in Danger
+607,Rock Art Sites of the Hills,Denmark,Europe and North America,Natural,2009-08-20,In Danger
+608,Archaeological Site of Finland,Finland,Europe and North America,Cultural,2010-11-09,Not in Danger
+609,Nature Reserve of Saint Mary,Finland,Europe and North America,Cultural,1992-07-26,Not in Danger
+610,Island of the Sanctuary,Finland,Europe and North America,Cultural,1988-11-27,Not in Danger
+611,Temple of the Ancients,Finland,Europe and North America,Cultural,1986-11-17,In Danger
+612,Old Town of Finland,Finland,Europe and North America,Cultural,1989-09-13,Not in Danger
+613,Historic Centre of the Old Quarter,Finland,Europe and North America,Cultural,1983-04-15,Not in Danger
+614,Island of Finland,Finland,Europe and North America,Natural,2004-10-05,Not in Danger
+615,Archaeological Site of the Capital,Finland,Europe and North America,Natural,1994-03-24,Not in Danger
+616,Wetlands of Ireland,Ireland,Europe and North America,Cultural,2002-07-05,Not in Danger
+617,River Delta of the Kings,Ireland,Europe and North America,Cultural,2016-02-06,Not in Danger
+618,Old Town of the Borderlands,Ireland,Europe and North America,Cultural,2010-02-03,Not in Danger
+619,Forest of the Valley,Ireland,Europe and North America,Natural,2019-07-17,Not in Danger
+620,River Delta of the Peninsula,Ireland,Europe and North America,Natural,2002-06-19,Not in Danger
+621,Wetlands of Ireland,Ireland,Europe and North America,Natural,1986-05-16,Not in Danger
+622,Ancient City of Ireland,Ireland,Europe and North America,Cultural,2012-07-09,Not in Danger
+623,Historic Centre of Saint Mary,Ireland,Europe and North America,Cultural,2011-01-13,Not in Danger
+624,Cultural Landscape of Saint Mary,Ireland,Europe and North America,Cultural,1987-07-21,Not in Danger
+625,Caves of the Hills,Ireland,Europe and North America,Cultural,2017-05-22,Not in Danger
+626,Caves of the Hills,Lithuania,Europe and North America,Cultural,2013-09-16,Not in Danger
+627,Nature Reserve of the Plains,Lithuania,Europe and North America,Cultural,1986-11-04,Not in Danger
+628,Archaeological Site of Lithuania,Lithuania,Europe and North America,Cultural,2010-07-26,Not in Danger
+629,Old Town of Lithuania,Lithuania,Europe and North America,Cultural,2018-01-26,Not in Danger
+630,Forest of the Coast,Lithuania,Europe and North America,Cultural,1994-04-12,Not in Danger
+631,Rock Art Sites of the Plains,Lithuania,Europe and North America,Mixed,2017-11-17,Not in Danger
+632,Old Town of the Ancients,Lithuania,Europe and North America,Natural,2018-08-15,In Danger
+633,River Delta of Lithuania,Lithuania,Europe and North America,Cultural,1980-10-17,Not in Danger
+634,Archaeological Site of the Hills,Lithuania,Europe and North America,Cultural,1993-11-01,Not in Danger
+635,Rock Art Sites of the Plains,Latvia,Europe and North America,Cultural,2003-10-07,Not in Danger
+636,Ancient City of the Borderlands,Latvia,Europe and North America,Cultural,1996-12-27,Not in Danger
+637,Nature Reserve of the Sacred Grove,Latvia,Europe and North America,Cultural,1992-10-07,Not in Danger
+638,Historic Centre of Latvia,Latvia,Europe and North America,Cultural,2004-09-04,Not in Danger
+639,Cultural Landscape of the Capital,Latvia,Europe and North America,Cultural,1994-09-27,Not in Danger
+640,Rock Art Sites of the Highlands,Estonia,Europe and North America,Cultural,1999-08-22,Not in Danger
+641,Historic Centre of the Sacred Grove,Estonia,Europe and North America,Cultural,1982-07-21,Not in Danger
+642,Fortress of the Desert,Estonia,Europe and North America,Natural,2000-09-18,In Danger
+643,Fortress of Estonia,Estonia,Europe and North America,Cultural,2003-11-24,Not in Danger
+644,Archaeological Site of the Hills,Estonia,Europe and North America,Cultural,1991-10-09,Not in Danger
+645,Cathedral of the Lake,Estonia,Europe and North America,Cultural,1993-12-08,Not in Danger
+646,Cathedral of the Pass,Estonia,Europe and North America,Natural,2000-03-25,Not in Danger
+647,Island of the Borderlands,Estonia,Europe and North America,Cultural,1980-08-12,Not in Danger
+648,Royal Palace of the Capital,Bolivia,Latin America and the Caribbean,Cultural,1995-07-08,Not in Danger
+649,River Delta of the Peninsula,Bolivia,Latin America and the Caribbean,Natural,2012-01-17,Not in Danger
+650,Archaeological Site of Saint Mary,Bolivia,Latin America and the Caribbean,Cultural,2011-08-11,Not in Danger
+651,Cathedral of Saint Mary,Bolivia,Latin America and the Caribbean,Cultural,1998-06-20,Not in Danger
+652,Royal Palace of Bolivia,Bolivia,Latin America and the Caribbean,Cultural,2008-10-11,Not in Danger
+653,Cathedral of the Hills,Bolivia,Latin America and the Caribbean,Cultural,2001-07-09,Not in Danger
+654,Wetlands of Saint Mary,Bolivia,Latin America and the Caribbean,Cultural,1995-04-18,Not in Danger
+655,Temple of the Kings,Bolivia,Latin America and the Caribbean,Cultural,2008-01-06,Not in Danger
+656,River Delta of the River,Bolivia,Latin America and the Caribbean,Cultural,2009-05-09,Not in Danger
+657,Rock Art Sites of Bolivia,Bolivia,Latin America and the Caribbean,Cultural,1988-01-07,Not in Danger
+658,National Park of the River,Guatemala,Latin America and the Caribbean,Natural,1994-06-12,Not in Danger
+659,Royal Palace of the Desert,Guatemala,Latin America and the Caribbean,Cultural,1985-06-28,Not in Danger
+660,Wetlands of the Borderlands,Guatemala,Latin America and the Caribbean,Cultural,1989-05-12,Not in Danger
+661,Ruins of the Plains,Guatemala,Latin America and the Caribbean,Cultural,2017-05-15,Not in Danger
+662,Archaeological Site of the River,Guatemala,Latin America and the Caribbean,Natural,2004-11-20,Not in Danger
+663,Ancient City of Guatemala,Guatemala,Latin America and the Caribbean,Cultural,1999-04-11,Not in Danger
+664,Royal Palace of the Plains,Guatemala,Latin America and the Caribbean,Cultural,1995-08-25,Not in Danger
+665,Wetlands of the Bay,Guatemala,Latin America and the Caribbean,Cultural,2004-03-06,Not in Danger
+666,Fortress of the Coast,Guatemala,Latin America and the Caribbean,Cultural,1991-03-13,Not in Danger
+667,Island of the Valley,Guatemala,Latin America and the Caribbean,Cultural,2003-09-25,Not in Danger
+668,Forest of Guatemala,Guatemala,Latin America and the Caribbean,Cultural,2019-07-10,Not in Danger
+669,Temple of Honduras,Honduras,Latin America and the Caribbean,Natural,1988-01-02,Not in Danger
+670,Cultural Landscape of the Bay,Honduras,Latin America and the Caribbean,Mixed,2012-05-18,Not in Danger
+671,Caves of Honduras,Honduras,Latin America and the Caribbean,Natural,2016-08-21,Not in Danger
+672,Mountains of the Borderlands,Honduras,Latin America and the Caribbean,Natural,1997-06-16,Not in Danger
+673,Ruins of the Desert,Honduras,Latin America and the Caribbean,Cultural,1994-03-10,In Danger
+674,Temple of the Peninsula,Honduras,Latin America and the Caribbean,Natural,2012-01-23,Not in Danger
+675,Island of Honduras,Honduras,Latin America and the Caribbean,Cultural,2005-05-20,Not in Danger
+676,Nature Reserve of Honduras,Honduras,Latin America and the Caribbean,Cultural,2013-07-13,Not in Danger
+677,Rock Art Sites of the Highlands,Costa Rica,Latin America and the Caribbean,Cultural,1994-02-14,Not in Danger
+678,Forest of the Sacred Grove,Costa Rica,Latin America and the Caribbean,Cultural,1996-11-24,Not in Danger
+679,Cathedral of the Ancients,Costa Rica,Latin America and the Caribbean,Cultural,1986-05-04,Not in Danger
+680,Royal Palace of the Peninsula,Costa Rica,Latin America and the Caribbean,Mixed,1990-06-01,Not in Danger
+681,Historic Centre of Costa Rica,Costa Rica,Latin America and the Caribbean,Cultural,1984-05-09,Not in Danger
+682,Historic Centre of Costa Rica,Costa Rica,Latin America and the Caribbean,Cultural,1987-01-16,Not in Danger
+683,Island of the Bay,Costa Rica,Latin America and the Caribbean,Natural,1980-06-03,Not in Danger
+684,Old Town of Costa Rica,Costa Rica,Latin America and the Caribbean,Cultural,2003-02-18,Not in Danger
+685,Royal Palace of the Valley,Costa Rica,Latin America and the Caribbean,Mixed,1985-12-08,Not in Danger
+686,Fortress of the North,Costa Rica,Latin America and the Caribbean,Cultural,1990-08-24,Not in Danger
+687,Cathedral of the Old Quarter,Costa Rica,Latin America and the Caribbean,Cultural,1998-03-21,Not in Danger
+688,River Delta of Panama,Panama,Latin America and the Caribbean,Natural,2008-11-10,Not in Danger
+689,Cathedral of the Highlands,Panama,Latin America and the Caribbean,Natural,2018-07-11,In Danger
+690,Wetlands of Panama,Panama,Latin America and the Caribbean,Cultural,1993-01-02,Not in Danger
+691,Forest of Panama,Panama,Latin America and the Caribbean,Cultural,1983-04-06,Not in Danger
+692,Cultural Landscape of the North,Panama,Latin America and the Caribbean,Cultural,1981-06-21,Not in Danger
+693,National Park of Panama,Panama,Latin America and the Caribbean,Cultural,1992-06-18,Not in Danger
+694,Ruins of the Valley,Panama,Latin America and the Caribbean,Natural,2002-06-24,Not in Danger
+695,Island of the Borderlands,Panama,Latin America and the Caribbean,Cultural,1996-09-23,Not in Danger
+696,Caves of the Bay,Panama,Latin America and the Caribbean,Cultural,1995-10-28,Not in Danger
+697,Ruins of Venezuela,Venezuela,Latin America and the Caribbean,Natural,1994-09-12,Not in Danger
+698,River Delta of the Ancients,Venezuela,Latin America and the Caribbean,Cultural,1979-10-28,Not in Danger
+699,Cultural Landscape of the Borderlands,Venezuela,Latin America and the Caribbean,Cultural,2002-04-17,Not in Danger
+700,Forest of Dominican Republic,Dominican Republic,Latin America and the Caribbean,Cultural,2004-11-11,Not in Danger
+701,Ancient City of Dominican Republic,Dominican Republic,Latin America and the Caribbean,Cultural,1986-03-28,In Danger
+702,Cathedral of Dominican Republic,Dominican Republic,Latin America and the Caribbean,Cultural,2014-11-27,Not in Danger
+703,Wetlands of Haiti,Haiti,Latin America and the Caribbean,Cultural,2001-04-20,Not in Danger
+704,Cathedral of the Coast,Haiti,Latin America and the Caribbean,Cultural,2007-11-02,Not in Danger
+705,Mountains of the North,Haiti,Latin America and the Caribbean,Cultural,2017-05-17,In Danger
+706,Monastery of Haiti,Haiti,Latin America and the Caribbean,Cultural,1991-09-04,Not in Danger
+707,Rock Art Sites of Haiti,Haiti,Latin America and the Caribbean,Natural,2011-11-08,Not in Danger
+708,Caves of the Desert,Haiti,Latin America and the Caribbean,Cultural,1984-11-19,Not in Danger
+709,Mountains of the Ancients,Haiti,Latin America and the Caribbean,Cultural,1989-09-13,Not in Danger
+710,Caves of the Bay,Haiti,Latin America and the Caribbean,Cultural,2000-06-18,Not in Danger
+711,Nature Reserve of the Desert,Haiti,Latin America and the Caribbean,Cultural,1998-10-08,Not in Danger
+712,Caves of the Sacred Grove,Haiti,Latin America and the Caribbean,Cultural,2001-08-15,Not in Danger
+713,Monastery of the Capital,Lebanon,Arab States,Cultural,1986-05-01,Not in Danger
+714,Historic Centre of the Sacred Grove,Yemen,Arab States,Cultural,2013-09-18,Not in Danger
+715,National Park of Yemen,Yemen,Arab States,Natural,2000-03-05,Not in Danger
+716,Fortress of Yemen,Yemen,Arab States,Natural,1997-02-19,Not in Danger
+717,Ancient City of the Peninsula,Yemen,Arab States,Cultural,1989-08-27,Not in Danger
+718,National Park of the Old Quarter,Yemen,Arab States,Cultural,1980-12-26,Not in Danger
+719,Old Town of the River,Yemen,Arab States,Cultural,2000-07-14,Not in Danger
+720,Forest of the Plains,Oman,Arab States,Cultural,1981-05-17,In Danger
+721,Temple of the Highlands,Oman,Arab States,Cultural,1987-01-22,Not in Danger
+722,Ruins of the Sanctuary,Oman,Arab States,Natural,2010-02-08,Not in Danger
+723,Temple of Oman,Oman,Arab States,Cultural,1983-08-19,Not in Danger
+724,Ancient City of the Desert,Qatar,Arab States,Cultural,1986-03-16,Not in Danger
+725,Wetlands of Qatar,Qatar,Arab States,Cultural,2017-12-17,Not in Danger
+726,Mountains of the Sanctuary,Qatar,Arab States,Cultural,1983-02-22,Not in Danger
+727,Cathedral of the Pass,Qatar,Arab States,Mixed,2019-01-25,Not in Danger
+728,Forest of the Bay,Qatar,Arab States,Natural,2017-03-15,In Danger
+729,Nature Reserve of Uganda,Uganda,Africa,Natural,1983-02-24,In Danger
+730,Temple of the Old Quarter,Uganda,Africa,Cultural,1978-06-23,Not in Danger
+731,Island of Uganda,Uganda,Africa,Cultural,1991-12-18,Not in Danger
+732,Royal Palace of the Pass,Uganda,Africa,Cultural,1987-12-23,Not in Danger
+733,River Delta of Cameroon,Cameroon,Africa,Cultural,1988-01-10,Not in Danger
+734,Royal Palace of Cameroon,Cameroon,Africa,Cultural,2019-01-03,Not in Danger
+735,Nature Reserve of the Valley,Cameroon,Africa,Cultural,1996-11-13,Not in Danger
+736,National Park of the Peninsula,Cameroon,Africa,Cultural,2016-09-03,Not in Danger
+737,Ruins of the Valley,Cameroon,Africa,Cultural,1980-04-17,Not in Danger
+738,Archaeological Site of Cameroon,Cameroon,Africa,Mixed,2000-06-21,Not in Danger
+739,River Delta of Cameroon,Cameroon,Africa,Natural,1981-11-09,Not in Danger
+740,Historic Centre of the Sacred Grove,Cameroon,Africa,Cultural,1992-03-11,Not in Danger
+741,Ancient City of the Capital,Cameroon,Africa,Cultural,2017-11-22,Not in Danger
+742,Temple of the Old Quarter,Cameroon,Africa,Cultural,2016-06-15,Not in Danger
+743,Temple of the Lake,Cameroon,Africa,Cultural,1986-05-23,Not in Danger
+744,Mountains of the Kings,DR Congo,Africa,Cultural,2019-10-06,Not in Danger
+745,National Park of DR Congo,DR Congo,Africa,Natural,1987-12-01,Not in Danger
+746,Mountains of the Old Quarter,DR Congo,Africa,Natural,2006-12-27,Not in Danger
+747,Temple of Saint Mary,Mozambique,Africa,Cultural,1986-03-01,Not in Danger
+748,Royal Palace of the Pass,Mozambique,Africa,Cultural,1992-10-08,Not in Danger
+749,Ancient City of the Peninsula,Mozambique,Africa,Cultural,1986-09-28,Not in Danger
+750,Nature Reserve of Mozambique,Mozambique,Africa,Cultural,2002-08-16,Not in Danger
+751,Old Town of the Valley,Mozambique,Africa,Mixed,1995-07-08,Not in Danger
+752,Ancient City of Malawi,Malawi,Africa,Natural,2006-10-16,Not in Danger
+753,Fortress of the North,Malawi,Africa,Cultural,2016-12-27,Not in Danger
+754,Forest of the Sanctuary,Malawi,Africa,Cultural,2016-09-17,Not in Danger
+755,Old Town of the Bay,Malawi,Africa,Cultural,2007-01-08,Not in Danger
